@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<!-- saved from url=(0024)https://si.codingia.com/ -->
-<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ITINERARIO PARA LA EMPLEABILIDAD - TEST</title>
+  <title>IPE - CODINGIA</title>
   <style>
     * {
       box-sizing: border-box;
@@ -94,219 +94,1676 @@
       color: #555;
       text-align: center;
     }
+
+    .question-item {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .question-item h3 {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .question-item ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .question-item li {
+      padding: 0.3rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .question-item li.correct {
+      background: #d4edda;
+    }
+
+    /* verde suave */
+    .question-item li.hidden {
+      display: none;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    #reiniciar {
+      background: #dc3545;
+      margin-top: 0.5rem;
+    }
+
+    #reiniciar:hover {
+      background: #a71d2a;
+    }
   </style>
 </head>
 
 <body>
-  <div class="card">
-    <h2 id="pregunta">Selecciona la palabra que se corresponde con el fonema semivocálico /j/:</h2>
-    <div id="opciones">
-    <label class="option">
-      <input type="radio" name="opcion" value="ambas son correctas."> ambas son correctas.
-    </label>
-  
-    <label class="option">
-      <input type="radio" name="opcion" value="jail"> jail
-    </label>
-  
-    <label class="option">
-      <input type="radio" name="opcion" value="Yale"> Yale
-    </label>
+  <div style="display:flex; flex-direction: column">
+    <div class="card">
+      <h2 id="pregunta">¿Qué se debe priorizar en la planificación de una carrera profesional?</h2>
+            <div id="opciones"><label class="option"><input type="radio" name="opcion" value="" data-texto="Identificar objetivos coherentes con intereses y capacidades."> Identificar objetivos coherentes con intereses y capacidades.</label><label class="option"><input type="radio" name="opcion" value="" data-texto="Cambiar de empleo frecuentemente sin planificación."> Cambiar de empleo frecuentemente sin planificación.</label><label class="option"><input type="radio" name="opcion" value="" data-texto="Elegir trabajos sin considerar habilidades y metas."> Elegir trabajos sin considerar habilidades y metas.</label></div>
+      <button onclick="siguiente()" style="display: inline-block;">Corregir</button>
+      <button id="reiniciar" onclick="reiniciarEstadisticas()">Reiniciar estadísticas</button>
+      <div id="resultado"></div>
+      <div class="estadisticas" id="estadisticas">✅ Aciertos: 0 | ❌ Fallos: 0 | 🎯 Porcentaje: 0% | 📋 Total: 178
+        preguntas</div>
+    </div>
+    <div class="card">
+      <h2>Listado de preguntas</h2>
+      <input type="text" id="search" placeholder="Busca aquí…"
+        style="width:100%; padding:0.8rem; margin-bottom:1rem; border-radius:6px; border:1px solid #ccc;">
+      <div id="question-list">
+          <h3>1. ¿Qué elemento es obligatorio en un contrato formativo para la obtención de la práctica profesional?</h3>
+  <ul>
+    <li class="">Desempeñar el trabajo sin relación con la titulación previa.</li>
+    <li class="correct">Contar con una titulación académica obtenida recientemente.</li>
+    <li class="">Incluir horas extraordinarias en la jornada laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica la cláusula de confidencialidad en un contrato laboral? Restringir la divulgación de información empresarial a terceros. Mantener el salario en secreto entre compañeros. Evitar compartir detalles personales del empleador.">
+  <h3>2. ¿Qué implica la cláusula de confidencialidad en un contrato laboral?</h3>
+  <ul>
+    <li class="correct">Restringir la divulgación de información empresarial a terceros.</li>
+    <li class="">Mantener el salario en secreto entre compañeros.</li>
+    <li class="">Evitar compartir detalles personales del empleador.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué ocurre si un contrato temporal por circunstancias de producción supera los 18 meses en 24 meses? Debe renovarse con autorización especial. Se transforma automáticamente en un contrato indefinido. El empleador está obligado a pagar una indemnización adicional.">
+  <h3>3. ¿Qué ocurre si un contrato temporal por circunstancias de producción supera los 18 meses en 24 meses?</h3>
+  <ul>
+    <li class="">Debe renovarse con autorización especial.</li>
+    <li class="correct">Se transforma automáticamente en un contrato indefinido.</li>
+    <li class="">El empleador está obligado a pagar una indemnización adicional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué caracteriza a un contrato indefinido? Tiene una duración limitada. Carece de fecha de finalización establecida. Solo se utiliza para trabajos temporales.">
+  <h3>4. ¿Qué caracteriza a un contrato indefinido?</h3>
+  <ul>
+    <li class="">Tiene una duración limitada.</li>
+    <li class="correct">Carece de fecha de finalización establecida.</li>
+    <li class="">Solo se utiliza para trabajos temporales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Cuál es el objetivo principal del derecho del trabajo? Garantizar la justicia social y el equilibrio en el ámbito laboral. Aumentar la productividad de las empresas. Controlar las vacaciones de los empleados.">
+  <h3>5. ¿Cuál es el objetivo principal del derecho del trabajo?</h3>
+  <ul>
+    <li class="correct">Garantizar la justicia social y el equilibrio en el ámbito laboral.</li>
+    <li class="">Aumentar la productividad de las empresas.</li>
+    <li class="">Controlar las vacaciones de los empleados.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué permite el derecho a la huelga? Exigir aumentos salariales sin trabajar. Suspender colectivamente las actividades laborales para defender intereses. Reunirse con amigos durante el horario laboral.">
+  <h3>6. ¿Qué permite el derecho a la huelga?</h3>
+  <ul>
+    <li class="">Exigir aumentos salariales sin trabajar.</li>
+    <li class="correct">Suspender colectivamente las actividades laborales para defender intereses.</li>
+    <li class="">Reunirse con amigos durante el horario laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué norma regula la jornada laboral, descansos y vacaciones en España? La Ley General de la Seguridad Social. El Estatuto de los Trabajadores. El Código Penal.">
+  <h3>7. ¿Qué norma regula la jornada laboral, descansos y vacaciones en España?</h3>
+  <ul>
+    <li class="">La Ley General de la Seguridad Social.</li>
+    <li class="correct">El Estatuto de los Trabajadores.</li>
+    <li class="">El Código Penal.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué regula la Ley General de la Seguridad Social? La duración de las vacaciones anuales. Las prestaciones y cotizaciones para garantizar la protección social. Las condiciones para firmar contratos temporales.">
+  <h3>8. ¿Qué regula la Ley General de la Seguridad Social?</h3>
+  <ul>
+    <li class="">La duración de las vacaciones anuales.</li>
+    <li class="correct">Las prestaciones y cotizaciones para garantizar la protección social.</li>
+    <li class="">Las condiciones para firmar contratos temporales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué aspecto analiza un convenio colectivo aplicable por sectores? Condiciones específicas laborales y salariales en un sector económico. Horarios generales de las empresas. Normas laborales internacionales.">
+  <h3>9. ¿Qué aspecto analiza un convenio colectivo aplicable por sectores?</h3>
+  <ul>
+    <li class="correct">Condiciones específicas laborales y salariales en un sector económico.</li>
+    <li class="">Horarios generales de las empresas.</li>
+    <li class="">Normas laborales internacionales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué procedimiento es obligatorio antes de una reclamación judicial laboral? Negociación directa con el empresario. Conciliación previa en el SMAC. Consultar al Tribunal Supremo.">
+  <h3>10. ¿Qué procedimiento es obligatorio antes de una reclamación judicial laboral?</h3>
+  <ul>
+    <li class="">Negociación directa con el empresario.</li>
+    <li class="correct">Conciliación previa en el SMAC.</li>
+    <li class="">Consultar al Tribunal Supremo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué debe contener un contrato laboral para garantizar su validez? Los días de vacaciones del trabajador. La descripción del puesto, horario y remuneración. La afiliación sindical del empleado.">
+  <h3>11. ¿Qué debe contener un contrato laboral para garantizar su validez?</h3>
+  <ul>
+    <li class="">Los días de vacaciones del trabajador.</li>
+    <li class="correct">La descripción del puesto, horario y remuneración.</li>
+    <li class="">La afiliación sindical del empleado.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué duración máxima tiene un contrato de formación en alternancia? Dos años. Un año. Seis meses.">
+  <h3>12. ¿Qué duración máxima tiene un contrato de formación en alternancia?</h3>
+  <ul>
+    <li class="correct">Dos años.</li>
+    <li class="">Un año.</li>
+    <li class="">Seis meses.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué documento regula las condiciones laborales específicas de un sector? Estatuto de los Trabajadores. Convenio colectivo. Ley de Prevención de Riesgos Laborales.">
+  <h3>13. ¿Qué documento regula las condiciones laborales específicas de un sector?</h3>
+  <ul>
+    <li class="">Estatuto de los Trabajadores.</li>
+    <li class="correct">Convenio colectivo.</li>
+    <li class="">Ley de Prevención de Riesgos Laborales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Cómo puede un profesional mejorar sus oportunidades en un mercado laboral saturado? Especializándose en un nicho específico y fortaleciendo su red de contactos. Cambiando constantemente de sector laboral. Optando exclusivamente por trabajos temporales.">
+  <h3>14. ¿Cómo puede un profesional mejorar sus oportunidades en un mercado laboral saturado?</h3>
+  <ul>
+    <li class="correct">Especializándose en un nicho específico y fortaleciendo su red de contactos.</li>
+    <li class="">Cambiando constantemente de sector laboral.</li>
+    <li class="">Optando exclusivamente por trabajos temporales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué debe hacerse para que el desarrollo profesional sea sostenible a largo plazo? Fijar metas estáticas. Incluir formación continua y evaluar regularmente los progresos. Centrarse solo en los logros pasados.">
+  <h3>15. ¿Qué debe hacerse para que el desarrollo profesional sea sostenible a largo plazo?</h3>
+  <ul>
+    <li class="">Fijar metas estáticas.</li>
+    <li class="correct">Incluir formación continua y evaluar regularmente los progresos.</li>
+    <li class="">Centrarse solo en los logros pasados.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia es más efectiva para destacar en una entrevista grupal? Hablar continuamente para demostrar interés. Participar activamente con intervenciones relevantes y respetar los turnos de palabra. Evitar la interacción para no destacar demasiado.">
+  <h3>16. ¿Qué estrategia es más efectiva para destacar en una entrevista grupal?</h3>
+  <ul>
+    <li class="">Hablar continuamente para demostrar interés.</li>
+    <li class="correct">Participar activamente con intervenciones relevantes y respetar los turnos de palabra.</li>
+    <li class="">Evitar la interacción para no destacar demasiado.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué factor evalúa el análisis DAFO en la categoría de 'amenazas'? Debilidades internas del individuo. Factores externos que dificultan el progreso profesional. Fortalezas personales para destacar en el mercado laboral.">
+  <h3>17. ¿Qué factor evalúa el análisis DAFO en la categoría de 'amenazas'?</h3>
+  <ul>
+    <li class="">Debilidades internas del individuo.</li>
+    <li class="correct">Factores externos que dificultan el progreso profesional.</li>
+    <li class="">Fortalezas personales para destacar en el mercado laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una destreza cognitiva? Resolver problemas y tomar decisiones fundamentadas. Usar herramientas de manera precisa. Realizar tareas repetitivas sin errores.">
+  <h3>18. ¿Qué es una destreza cognitiva?</h3>
+  <ul>
+    <li class="correct">Resolver problemas y tomar decisiones fundamentadas.</li>
+    <li class="">Usar herramientas de manera precisa.</li>
+    <li class="">Realizar tareas repetitivas sin errores.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué objetivo tiene la metodología SMART en la planificación profesional? Crear metas vagas pero flexibles. Establecer metas específicas, medibles y alcanzables. Evaluar intereses y habilidades generales.">
+  <h3>19. ¿Qué objetivo tiene la metodología SMART en la planificación profesional?</h3>
+  <ul>
+    <li class="">Crear metas vagas pero flexibles.</li>
+    <li class="correct">Establecer metas específicas, medibles y alcanzables.</li>
+    <li class="">Evaluar intereses y habilidades generales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué puede mejorar el impacto de un currículum en una oferta laboral específica? Adaptarlo a los requisitos del puesto solicitado. Usar el mismo formato para todas las candidaturas. Incluir información personal irrelevante.">
+  <h3>20. ¿Qué puede mejorar el impacto de un currículum en una oferta laboral específica?</h3>
+  <ul>
+    <li class="correct">Adaptarlo a los requisitos del puesto solicitado.</li>
+    <li class="">Usar el mismo formato para todas las candidaturas.</li>
+    <li class="">Incluir información personal irrelevante.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué formato de currículum es ideal para profesionales con poca experiencia laboral? Currículum funcional. Currículum cronológico inverso. Currículum mixto.">
+  <h3>21. ¿Qué formato de currículum es ideal para profesionales con poca experiencia laboral?</h3>
+  <ul>
+    <li class="correct">Currículum funcional.</li>
+    <li class="">Currículum cronológico inverso.</li>
+    <li class="">Currículum mixto.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué técnica es clave para afrontar una entrevista de trabajo? Investigar sobre la empresa y preparar respuestas basadas en competencias. Memorizar una lista de respuestas genéricas. Enviar 'preguntas' al entrevistador previamente.">
+  <h3>22. ¿Qué técnica es clave para afrontar una entrevista de trabajo?</h3>
+  <ul>
+    <li class="correct">Investigar sobre la empresa y preparar respuestas basadas en competencias.</li>
+    <li class="">Memorizar una lista de respuestas genéricas.</li>
+    <li class="">Enviar 'preguntas' al entrevistador previamente.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia puede mejorar la empleabilidad en un mercado competitivo? Basarse exclusivamente en habilidades técnicas. Desarrollar competencias blandas y técnicas de forma equilibrada. Evitar cambios de carrera profesional.">
+  <h3>23. ¿Qué estrategia puede mejorar la empleabilidad en un mercado competitivo?</h3>
+  <ul>
+    <li class="">Basarse exclusivamente en habilidades técnicas.</li>
+    <li class="correct">Desarrollar competencias blandas y técnicas de forma equilibrada.</li>
+    <li class="">Evitar cambios de carrera profesional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué característica distingue a una persona con buena gestión emocional en el trabajo? Responder impulsivamente a situaciones adversas. Manejar sus emociones de forma equilibrada y profesional. Evitar conflictos sin resolverlos.">
+  <h3>24. ¿Qué característica distingue a una persona con buena gestión emocional en el trabajo?</h3>
+  <ul>
+    <li class="">Responder impulsivamente a situaciones adversas.</li>
+    <li class="correct">Manejar sus emociones de forma equilibrada y profesional.</li>
+    <li class="">Evitar conflictos sin resolverlos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué herramienta se utiliza para explorar intereses y valores profesionales? El análisis DAFO. Las pruebas de orientación vocacional. El currículum funcional.">
+  <h3>25. ¿Qué herramienta se utiliza para explorar intereses y valores profesionales?</h3>
+  <ul>
+    <li class="">El análisis DAFO.</li>
+    <li class="correct">Las pruebas de orientación vocacional.</li>
+    <li class="">El currículum funcional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué significa la gestión del tiempo en la planificación profesional? Asignar tiempo sin establecer prioridades. Organizar actividades según su importancia y urgencia. Reducir las pausas y descansos en la jornada laboral.">
+  <h3>26. ¿Qué significa la gestión del tiempo en la planificación profesional?</h3>
+  <ul>
+    <li class="">Asignar tiempo sin establecer prioridades.</li>
+    <li class="correct">Organizar actividades según su importancia y urgencia.</li>
+    <li class="">Reducir las pausas y descansos en la jornada laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia puede fortalecer un entorno personal de aprendizaje (EPA)? Utilizar únicamente recursos gratuitos. Combinar herramientas tecnológicas, contactos personales y estrategias de gestión de información. Basarse exclusivamente en la experiencia laboral previa.">
+  <h3>27. ¿Qué estrategia puede fortalecer un entorno personal de aprendizaje (EPA)?</h3>
+  <ul>
+    <li class="">Utilizar únicamente recursos gratuitos.</li>
+    <li class="correct">Combinar herramientas tecnológicas, contactos personales y estrategias de gestión de información.</li>
+    <li class="">Basarse exclusivamente en la experiencia laboral previa.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué habilidad es clave para gestionar información en un mundo digitalizado? Ignorar el exceso de datos. Filtrar, clasificar y priorizar información relevante para objetivos específicos. Depender exclusivamente de motores de búsqueda.">
+  <h3>28. ¿Qué habilidad es clave para gestionar información en un mundo digitalizado?</h3>
+  <ul>
+    <li class="">Ignorar el exceso de datos.</li>
+    <li class="correct">Filtrar, clasificar y priorizar información relevante para objetivos específicos.</li>
+    <li class="">Depender exclusivamente de motores de búsqueda.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué puede dificultar la implementación de un EPA efectivo? La flexibilidad. Falta de habilidades tecnológicas o autogestión del aprendizaje. Participación en redes de aprendizaje.">
+  <h3>29. ¿Qué puede dificultar la implementación de un EPA efectivo?</h3>
+  <ul>
+    <li class="">La flexibilidad.</li>
+    <li class="correct">Falta de habilidades tecnológicas o autogestión del aprendizaje.</li>
+    <li class="">Participación en redes de aprendizaje.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica el aprendizaje permanente? Detener el aprendizaje al finalizar los estudios. Adquirir conocimientos y habilidades de forma continua a lo largo de la vida. Aprender solo en entornos académicos formales.">
+  <h3>30. ¿Qué implica el aprendizaje permanente?</h3>
+  <ul>
+    <li class="">Detener el aprendizaje al finalizar los estudios.</li>
+    <li class="correct">Adquirir conocimientos y habilidades de forma continua a lo largo de la vida.</li>
+    <li class="">Aprender solo en entornos académicos formales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué caracteriza a una identidad digital coherente? Presentar información contradictoria en diferentes plataformas. Mantener consistencia en los mensajes y comportamientos online. Compartir todo tipo de contenido en redes sociales.">
+  <h3>31. ¿Qué caracteriza a una identidad digital coherente?</h3>
+  <ul>
+    <li class="">Presentar información contradictoria en diferentes plataformas.</li>
+    <li class="correct">Mantener consistencia en los mensajes y comportamientos online.</li>
+    <li class="">Compartir todo tipo de contenido en redes sociales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una herramienta de gestión de contraseñas? Una base de datos de usuarios en línea. Una aplicación que almacena contraseñas seguras y únicas. Un tipo de red social profesional.">
+  <h3>32. ¿Qué es una herramienta de gestión de contraseñas?</h3>
+  <ul>
+    <li class="">Una base de datos de usuarios en línea.</li>
+    <li class="correct">Una aplicación que almacena contraseñas seguras y únicas.</li>
+    <li class="">Un tipo de red social profesional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica la alfabetización digital en el aprendizaje permanente? Conocer únicamente conceptos básicos de informática. Usar herramientas digitales de manera eficiente para buscar, gestionar y crear información. Evitar el uso de tecnologías avanzadas.">
+  <h3>33. ¿Qué implica la alfabetización digital en el aprendizaje permanente?</h3>
+  <ul>
+    <li class="">Conocer únicamente conceptos básicos de informática.</li>
+    <li class="correct">Usar herramientas digitales de manera eficiente para buscar, gestionar y crear información.</li>
+    <li class="">Evitar el uso de tecnologías avanzadas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué representa una oportunidad en el aprendizaje permanente? Nuevas tecnologías y recursos disponibles para mejorar habilidades. Dificultades externas que complican el acceso a la formación. Factores internos que limitan el progreso educativo.">
+  <h3>34. ¿Qué representa una oportunidad en el aprendizaje permanente?</h3>
+  <ul>
+    <li class="correct">Nuevas tecnologías y recursos disponibles para mejorar habilidades.</li>
+    <li class="">Dificultades externas que complican el acceso a la formación.</li>
+    <li class="">Factores internos que limitan el progreso educativo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué habilidad facilita la gestión de múltiples fuentes de información? Memorización. Pensamiento crítico para evaluar la fiabilidad de las fuentes. Evitar la búsqueda de información en exceso.">
+  <h3>35. ¿Qué habilidad facilita la gestión de múltiples fuentes de información?</h3>
+  <ul>
+    <li class="">Memorización.</li>
+    <li class="correct">Pensamiento crítico para evaluar la fiabilidad de las fuentes.</li>
+    <li class="">Evitar la búsqueda de información en exceso.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se debe considerar al seleccionar fuentes de información en un EPA? Que sean populares en redes sociales. Que sean confiables, actualizadas y relevantes para los objetivos de aprendizaje. Que sean gratuitas sin importar su origen.">
+  <h3>36. ¿Qué se debe considerar al seleccionar fuentes de información en un EPA?</h3>
+  <ul>
+    <li class="">Que sean populares en redes sociales.</li>
+    <li class="correct">Que sean confiables, actualizadas y relevantes para los objetivos de aprendizaje.</li>
+    <li class="">Que sean gratuitas sin importar su origen.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué característica tiene un buen objetivo de aprendizaje? Ser ambiguo para permitir flexibilidad. Estar alineado con metas personales y profesionales. Ser completamente dependiente de las tendencias del mercado.">
+  <h3>37. ¿Qué característica tiene un buen objetivo de aprendizaje?</h3>
+  <ul>
+    <li class="">Ser ambiguo para permitir flexibilidad.</li>
+    <li class="correct">Estar alineado con metas personales y profesionales.</li>
+    <li class="">Ser completamente dependiente de las tendencias del mercado.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué representa una amenaza a la ciberseguridad? Actualizaciones regulares de software. Correos electrónicos fraudulentos que solicitan datos personales. Uso de herramientas de encriptación.">
+  <h3>38. ¿Qué representa una amenaza a la ciberseguridad?</h3>
+  <ul>
+    <li class="">Actualizaciones regulares de software.</li>
+    <li class="correct">Correos electrónicos fraudulentos que solicitan datos personales.</li>
+    <li class="">Uso de herramientas de encriptación.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué herramienta ayuda a recopilar y organizar información en un EPA? Aplicaciones como Evernote o Notion. Redes sociales generales. Foros de entretenimiento.">
+  <h3>39. ¿Qué herramienta ayuda a recopilar y organizar información en un EPA?</h3>
+  <ul>
+    <li class="correct">Aplicaciones como Evernote o Notion.</li>
+    <li class="">Redes sociales generales.</li>
+    <li class="">Foros de entretenimiento.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué caracteriza a una red personal de aprendizaje                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               PLN? Se conforma por debilidades, amenazas, fortalezas y oportunidades. Se compone de personas con las que se comparte conocimiento y experiencias. Excluye las redes sociales profesionales, los foros y las comunidades virtuales.">
+  <h3>40. ¿Qué caracteriza a una red personal de aprendizaje                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               PLN?</h3>
+  <ul>
+    <li class="">Se conforma por debilidades, amenazas, fortalezas y oportunidades.</li>
+    <li class="correct">Se compone de personas con las que se comparte conocimiento y experiencias.</li>
+    <li class="">Excluye las redes sociales profesionales, los foros y las comunidades virtuales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué establece el derecho a la desconexión digital respecto a los dispositivos electrónicos? Los empleadores no pueden exigir su uso fuera del horario laboral. El trabajador debe mantenerlos encendidos siempre. Solo aplica en contratos temporales.">
+  <h3>41. ¿Qué establece el derecho a la desconexión digital respecto a los dispositivos electrónicos?</h3>
+  <ul>
+    <li class="correct">Los empleadores no pueden exigir su uso fuera del horario laboral.</li>
+    <li class="">El trabajador debe mantenerlos encendidos siempre.</li>
+    <li class="">Solo aplica en contratos temporales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué diferencia al contrato de formación en alternancia del contrato formativo para la obtención de la práctica profesional? La edad máxima del trabajador. La necesidad de contar con una titulación previa en el segundo caso. La posibilidad de realizar horas extraordinarias.">
+  <h3>42. ¿Qué diferencia al contrato de formación en alternancia del contrato formativo para la obtención de la práctica profesional?</h3>
+  <ul>
+    <li class="">La edad máxima del trabajador.</li>
+    <li class="correct">La necesidad de contar con una titulación previa en el segundo caso.</li>
+    <li class="">La posibilidad de realizar horas extraordinarias.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de medida debe prevalecer en la prevención de riesgos laborales? Medidas de protección individual. Medidas de protección colectiva. Capacitación exclusiva para supervisores.">
+  <h3>43. ¿Qué tipo de medida debe prevalecer en la prevención de riesgos laborales?</h3>
+  <ul>
+    <li class="">Medidas de protección individual.</li>
+    <li class="correct">Medidas de protección colectiva.</li>
+    <li class="">Capacitación exclusiva para supervisores.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de contrato combina trabajo y formación? Contrato indefinido. Contrato de formación en alternancia. Contrato temporal.">
+  <h3>44. ¿Qué tipo de contrato combina trabajo y formación?</h3>
+  <ul>
+    <li class="">Contrato indefinido.</li>
+    <li class="correct">Contrato de formación en alternancia.</li>
+    <li class="">Contrato temporal.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué regula el derecho del trabajo? Las relaciones laborales y los derechos y deberes de empresarios y trabajadores. Las relaciones personales entre empleados. La productividad empresarial.">
+  <h3>45. ¿Qué regula el derecho del trabajo?</h3>
+  <ul>
+    <li class="correct">Las relaciones laborales y los derechos y deberes de empresarios y trabajadores.</li>
+    <li class="">Las relaciones personales entre empleados.</li>
+    <li class="">La productividad empresarial.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué regula la Ley de Prevención de Riesgos Laborales? La formación académica de los empleados. La seguridad y salud en el trabajo. Los descansos durante la jornada laboral.">
+  <h3>46. ¿Qué regula la Ley de Prevención de Riesgos Laborales?</h3>
+  <ul>
+    <li class="">La formación académica de los empleados.</li>
+    <li class="correct">La seguridad y salud en el trabajo.</li>
+    <li class="">Los descansos durante la jornada laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de contrato tiene como finalidad el desarrollo de competencias vinculadas a una titulación? Contrato indefinido. Contrato formativo para la obtención de la práctica profesional. Contrato temporal de interinidad.">
+  <h3>47. ¿Qué tipo de contrato tiene como finalidad el desarrollo de competencias vinculadas a una titulación?</h3>
+  <ul>
+    <li class="">Contrato indefinido.</li>
+    <li class="correct">Contrato formativo para la obtención de la práctica profesional.</li>
+    <li class="">Contrato temporal de interinidad.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué procedimiento garantiza una solución extrajudicial en los conflictos laborales? Conciliación previa en el SMAC. Recurso de suplicación en los Tribunales Superiores de Justicia. Consulta con el sindicato correspondiente.">
+  <h3>48. ¿Qué procedimiento garantiza una solución extrajudicial en los conflictos laborales?</h3>
+  <ul>
+    <li class="correct">Conciliación previa en el SMAC.</li>
+    <li class="">Recurso de suplicación en los Tribunales Superiores de Justicia.</li>
+    <li class="">Consulta con el sindicato correspondiente.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué indica la duración máxima de un contrato temporal por circunstancias de producción? Seis meses en un período de un año. Un año completo sin renovaciones. Dos años consecutivos.">
+  <h3>49. ¿Qué indica la duración máxima de un contrato temporal por circunstancias de producción?</h3>
+  <ul>
+    <li class="correct">Seis meses en un período de un año.</li>
+    <li class="">Un año completo sin renovaciones.</li>
+    <li class="">Dos años consecutivos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué indica el carácter dinámico del derecho del trabajo? Su capacidad para adaptarse a los cambios sociales y económicos. La flexibilidad de los trabajadores para cambiar de empleo. La estabilidad de los contratos laborales indefinidos.">
+  <h3>50. ¿Qué indica el carácter dinámico del derecho del trabajo?</h3>
+  <ul>
+    <li class="correct">Su capacidad para adaptarse a los cambios sociales y económicos.</li>
+    <li class="">La flexibilidad de los trabajadores para cambiar de empleo.</li>
+    <li class="">La estabilidad de los contratos laborales indefinidos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se debe garantizar al finalizar un contrato temporal? Un nuevo contrato en otra empresa. El pago de la indemnización correspondiente. Un aumento salarial antes de la finalización.">
+  <h3>51. ¿Qué se debe garantizar al finalizar un contrato temporal?</h3>
+  <ul>
+    <li class="">Un nuevo contrato en otra empresa.</li>
+    <li class="correct">El pago de la indemnización correspondiente.</li>
+    <li class="">Un aumento salarial antes de la finalización.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué debe incluirse en un contrato temporal para ser válido? Una descripción general del trabajo. La justificación de la temporalidad y duración del contrato. Una cláusula de confidencialidad.">
+  <h3>52. ¿Qué debe incluirse en un contrato temporal para ser válido?</h3>
+  <ul>
+    <li class="">Una descripción general del trabajo.</li>
+    <li class="correct">La justificación de la temporalidad y duración del contrato.</li>
+    <li class="">Una cláusula de confidencialidad.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué garantiza un contrato indefinido frente a un contrato temporal? Mayor estabilidad laboral. Más flexibilidad de horarios. Exención de cotización a la seguridad social.">
+  <h3>53. ¿Qué garantiza un contrato indefinido frente a un contrato temporal?</h3>
+  <ul>
+    <li class="correct">Mayor estabilidad laboral.</li>
+    <li class="">Más flexibilidad de horarios.</li>
+    <li class="">Exención de cotización a la seguridad social.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué rol juega el feedback en la mejora profesional? Generar conflictos entre compañeros. Identificar áreas de mejora y reforzar logros alcanzados. Aumentar la carga de trabajo sin motivo.">
+  <h3>54. ¿Qué rol juega el feedback en la mejora profesional?</h3>
+  <ul>
+    <li class="">Generar conflictos entre compañeros.</li>
+    <li class="correct">Identificar áreas de mejora y reforzar logros alcanzados.</li>
+    <li class="">Aumentar la carga de trabajo sin motivo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué método es más eficaz para evaluar fortalezas personales en el ámbito laboral? Autocrítica sin parámetros claros. Utilizar herramientas como análisis DAFO y retroalimentación externa. Evitar la opinión de terceros.">
+  <h3>55. ¿Qué método es más eficaz para evaluar fortalezas personales en el ámbito laboral?</h3>
+  <ul>
+    <li class="">Autocrítica sin parámetros claros.</li>
+    <li class="correct">Utilizar herramientas como análisis DAFO y retroalimentación externa.</li>
+    <li class="">Evitar la opinión de terceros.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué herramienta puede ser útil para identificar valores personales en el ámbito laboral? Pruebas psicométricas específicas y orientación profesional. Revisar exclusivamente la experiencia laboral previa. Ignorar los valores y centrarse en las habilidades técnicas.">
+  <h3>56. ¿Qué herramienta puede ser útil para identificar valores personales en el ámbito laboral?</h3>
+  <ul>
+    <li class="correct">Pruebas psicométricas específicas y orientación profesional.</li>
+    <li class="">Revisar exclusivamente la experiencia laboral previa.</li>
+    <li class="">Ignorar los valores y centrarse en las habilidades técnicas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué característica define una habilidad técnica? Una capacidad innata en el ámbito personal. Un conocimiento específico aprendido en un área concreta. Una capacidad de comunicación y liderazgo.">
+  <h3>57. ¿Qué característica define una habilidad técnica?</h3>
+  <ul>
+    <li class="">Una capacidad innata en el ámbito personal.</li>
+    <li class="correct">Un conocimiento específico aprendido en un área concreta.</li>
+    <li class="">Una capacidad de comunicación y liderazgo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué significa trabajar en equipo en el entorno laboral? Competir con otros empleados por objetivos. Colaborar con compañeros para lograr metas comunes. Delegar todas las responsabilidades en un líder.">
+  <h3>58. ¿Qué significa trabajar en equipo en el entorno laboral?</h3>
+  <ul>
+    <li class="">Competir con otros empleados por objetivos.</li>
+    <li class="correct">Colaborar con compañeros para lograr metas comunes.</li>
+    <li class="">Delegar todas las responsabilidades en un líder.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué permite la evaluación de intereses y preferencias laborales? Seleccionar trabajos al azar. Identificar áreas laborales afines a las metas personales. Evitar las renuncias en cualquier circunstancia.">
+  <h3>59. ¿Qué permite la evaluación de intereses y preferencias laborales?</h3>
+  <ul>
+    <li class="">Seleccionar trabajos al azar.</li>
+    <li class="correct">Identificar áreas laborales afines a las metas personales.</li>
+    <li class="">Evitar las renuncias en cualquier circunstancia.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué importancia tiene la adaptabilidad en el entorno laboral actual? Mantenerse rígido ante los cambios organizacionales. Ajustarse a nuevas condiciones y aprender rápidamente. Evitar trabajos que requieran habilidades diversas.">
+  <h3>60. ¿Qué importancia tiene la adaptabilidad en el entorno laboral actual?</h3>
+  <ul>
+    <li class="">Mantenerse rígido ante los cambios organizacionales.</li>
+    <li class="correct">Ajustarse a nuevas condiciones y aprender rápidamente.</li>
+    <li class="">Evitar trabajos que requieran habilidades diversas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una competencia blanda? Habilidad técnica específica de un sector. Capacidad personal para comunicarse y trabajar en equipo. Conocimiento especializado en un área concreta.">
+  <h3>61. ¿Qué es una competencia blanda?</h3>
+  <ul>
+    <li class="">Habilidad técnica específica de un sector.</li>
+    <li class="correct">Capacidad personal para comunicarse y trabajar en equipo.</li>
+    <li class="">Conocimiento especializado en un área concreta.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia es útil para superar debilidades identificadas en un análisis DAFO? Ignorarlas para centrarse en las fortalezas. Diseñar un plan de mejora continua enfocado en esas áreas. Cambiar de sector profesional.">
+  <h3>62. ¿Qué estrategia es útil para superar debilidades identificadas en un análisis DAFO?</h3>
+  <ul>
+    <li class="">Ignorarlas para centrarse en las fortalezas.</li>
+    <li class="correct">Diseñar un plan de mejora continua enfocado en esas áreas.</li>
+    <li class="">Cambiar de sector profesional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una competencia transversal? Una habilidad técnica específica de un puesto. Una capacidad aplicable en diversos ámbitos laborales. Un conocimiento básico sobre una industria.">
+  <h3>63. ¿Qué es una competencia transversal?</h3>
+  <ul>
+    <li class="">Una habilidad técnica específica de un puesto.</li>
+    <li class="correct">Una capacidad aplicable en diversos ámbitos laborales.</li>
+    <li class="">Un conocimiento básico sobre una industria.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel juega la formación continua en el desarrollo profesional? Mantener las competencias obsoletas. Actualizar conocimientos y adaptarse a las demandas del mercado laboral. Sustituir la experiencia laboral previa.">
+  <h3>64. ¿Qué papel juega la formación continua en el desarrollo profesional?</h3>
+  <ul>
+    <li class="">Mantener las competencias obsoletas.</li>
+    <li class="correct">Actualizar conocimientos y adaptarse a las demandas del mercado laboral.</li>
+    <li class="">Sustituir la experiencia laboral previa.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué ventaja tiene un currículum funcional frente a uno cronológico? Ocultar la experiencia laboral. Resaltar habilidades y competencias relevantes para el puesto. Priorizar fechas y orden de empleos anteriores.">
+  <h3>65. ¿Qué ventaja tiene un currículum funcional frente a uno cronológico?</h3>
+  <ul>
+    <li class="">Ocultar la experiencia laboral.</li>
+    <li class="correct">Resaltar habilidades y competencias relevantes para el puesto.</li>
+    <li class="">Priorizar fechas y orden de empleos anteriores.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué puede dificultar la consecución de objetivos a largo plazo? Falta de recursos externos. Definir metas poco específicas o irreales. Evaluar las fortalezas personales.">
+  <h3>66. ¿Qué puede dificultar la consecución de objetivos a largo plazo?</h3>
+  <ul>
+    <li class="">Falta de recursos externos.</li>
+    <li class="correct">Definir metas poco específicas o irreales.</li>
+    <li class="">Evaluar las fortalezas personales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se considera un uso ético de las redes sociales en el aprendizaje? Compartir información sin verificar su autenticidad. Contribuir con contenido relevante y respetar los derechos de autor. Publicar cualquier contenido que genere interacciones.">
+  <h3>67. ¿Qué se considera un uso ético de las redes sociales en el aprendizaje?</h3>
+  <ul>
+    <li class="">Compartir información sin verificar su autenticidad.</li>
+    <li class="correct">Contribuir con contenido relevante y respetar los derechos de autor.</li>
+    <li class="">Publicar cualquier contenido que genere interacciones.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica el aprendizaje basado en proyectos? Resolver tareas individuales sin aplicabilidad práctica. Aprender resolviendo problemas reales y desarrollando soluciones prácticas. Seguir únicamente guías teóricas sin trabajo práctico.">
+  <h3>68. ¿Qué implica el aprendizaje basado en proyectos?</h3>
+  <ul>
+    <li class="">Resolver tareas individuales sin aplicabilidad práctica.</li>
+    <li class="correct">Aprender resolviendo problemas reales y desarrollando soluciones prácticas.</li>
+    <li class="">Seguir únicamente guías teóricas sin trabajo práctico.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Cómo contribuyen las herramientas de análisis de datos en el aprendizaje? Proveen estadísticas irrelevantes para el aprendizaje. Ayudan a identificar patrones y áreas de mejora en el progreso educativo. Sustituyen la necesidad de un mentor o tutor.">
+  <h3>69. ¿Cómo contribuyen las herramientas de análisis de datos en el aprendizaje?</h3>
+  <ul>
+    <li class="">Proveen estadísticas irrelevantes para el aprendizaje.</li>
+    <li class="correct">Ayudan a identificar patrones y áreas de mejora en el progreso educativo.</li>
+    <li class="">Sustituyen la necesidad de un mentor o tutor.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué caracteriza a un objetivo de aprendizaje SMART? Ser general y poco medible. Ser específico, alcanzable y medible. Fijarse sin límite de tiempo.">
+  <h3>70. ¿Qué caracteriza a un objetivo de aprendizaje SMART?</h3>
+  <ul>
+    <li class="">Ser general y poco medible.</li>
+    <li class="correct">Ser específico, alcanzable y medible.</li>
+    <li class="">Fijarse sin límite de tiempo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué permite una red personal de aprendizaje (PLN)? Aislar el aprendizaje individual. Colaborar y compartir conocimientos con otras personas. Rechazar la tecnología en el aprendizaje.">
+  <h3>71. ¿Qué permite una red personal de aprendizaje (PLN)?</h3>
+  <ul>
+    <li class="">Aislar el aprendizaje individual.</li>
+    <li class="correct">Colaborar y compartir conocimientos con otras personas.</li>
+    <li class="">Rechazar la tecnología en el aprendizaje.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se considera una fuente de información confiable? Blogs sin autoría clara. Artículos académicos de instituciones reconocidas. Comentarios en redes sociales.">
+  <h3>72. ¿Qué se considera una fuente de información confiable?</h3>
+  <ul>
+    <li class="">Blogs sin autoría clara.</li>
+    <li class="correct">Artículos académicos de instituciones reconocidas.</li>
+    <li class="">Comentarios en redes sociales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué contribuye al desarrollo de una buena reputación online? Participar activamente en comunidades profesionales. Publicar contenido sin verificar su impacto. Evitar interactuar con otros usuarios.">
+  <h3>73. ¿Qué contribuye al desarrollo de una buena reputación online?</h3>
+  <ul>
+    <li class="correct">Participar activamente en comunidades profesionales.</li>
+    <li class="">Publicar contenido sin verificar su impacto.</li>
+    <li class="">Evitar interactuar con otros usuarios.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué diferencia a un PLN de otras redes? Su enfoque en la interacción personal. Su objetivo principal de compartir conocimiento y experiencias para aprender. Su exclusividad para usuarios avanzados.">
+  <h3>74. ¿Qué diferencia a un PLN de otras redes?</h3>
+  <ul>
+    <li class="">Su enfoque en la interacción personal.</li>
+    <li class="correct">Su objetivo principal de compartir conocimiento y experiencias para aprender.</li>
+    <li class="">Su exclusividad para usuarios avanzados.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué rol juega la autorregulación en el aprendizaje? Permite depender únicamente de un tutor. Fomenta la planificación, supervisión y evaluación del propio progreso. Elimina la necesidad de establecer metas.">
+  <h3>75. ¿Qué rol juega la autorregulación en el aprendizaje?</h3>
+  <ul>
+    <li class="">Permite depender únicamente de un tutor.</li>
+    <li class="correct">Fomenta la planificación, supervisión y evaluación del propio progreso.</li>
+    <li class="">Elimina la necesidad de establecer metas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es un EPA (Entorno personal de aprendizaje)? Un espacio digital para mejorar estructuras administrativas en la educación. Un conjunto de herramientas recursos y estrategias para gestionar y mejorar su proceso de aprendizaje de manera autónoma y continua. Una página web que nos permite seleccionar formación a medida para nuestro desarrollo personal.">
+  <h3>76. ¿Qué es un EPA (Entorno personal de aprendizaje)?</h3>
+  <ul>
+    <li class="">Un espacio digital para mejorar estructuras administrativas en la educación.</li>
+    <li class="correct">Un conjunto de herramientas recursos y estrategias para gestionar y mejorar su proceso de aprendizaje de manera autónoma y continua.</li>
+    <li class="">Una página web que nos permite seleccionar formación a medida para nuestro desarrollo personal.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué acción protege la privacidad en redes sociales? Compartir información sin restricciones. Configurar correctamente las 'opciones' de privacidad y evitar publicar datos sensibles. Aceptar todas las solicitudes de amistad.">
+  <h3>77. ¿Qué acción protege la privacidad en redes sociales?</h3>
+  <ul>
+    <li class="">Compartir información sin restricciones.</li>
+    <li class="correct">Configurar correctamente las 'opciones' de privacidad y evitar publicar datos sensibles.</li>
+    <li class="">Aceptar todas las solicitudes de amistad.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una herramienta de creación de contenido? Un medio para generar contenido nuevo. Una aplicación para recopilar, organizar y compartir información relevante. Un software para eliminar información no deseada.">
+  <h3>78. ¿Qué es una herramienta de creación de contenido?</h3>
+  <ul>
+    <li class="">Un medio para generar contenido nuevo.</li>
+    <li class="correct">Una aplicación para recopilar, organizar y compartir información relevante.</li>
+    <li class="">Un software para eliminar información no deseada.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué ventaja tiene el uso de plataformas como LinkedIn? Facilitar la interacción profesional y la creación de redes laborales. Sustituir el currículum físico. Garantizar ofertas de empleo automáticamente.">
+  <h3>79. ¿Qué ventaja tiene el uso de plataformas como LinkedIn?</h3>
+  <ul>
+    <li class="correct">Facilitar la interacción profesional y la creación de redes laborales.</li>
+    <li class="">Sustituir el currículum físico.</li>
+    <li class="">Garantizar ofertas de empleo automáticamente.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia ayuda a evitar distracciones al estudiar online? Usar múltiples dispositivos a la vez. Crear un espacio de estudio libre de interrupciones y utilizar técnicas como el método Pomodoro. Cambiar constantemente entre tareas.">
+  <h3>80. ¿Qué estrategia ayuda a evitar distracciones al estudiar online?</h3>
+  <ul>
+    <li class="">Usar múltiples dispositivos a la vez.</li>
+    <li class="correct">Crear un espacio de estudio libre de interrupciones y utilizar técnicas como el método Pomodoro.</li>
+    <li class="">Cambiar constantemente entre tareas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué órgano judicial tiene la competencia para resolver recursos de casación en el ámbito laboral? Los Juzgados de lo Social. El Tribunal Supremo. La Audiencia Nacional.">
+  <h3>81. ¿Qué órgano judicial tiene la competencia para resolver recursos de casación en el ámbito laboral?</h3>
+  <ul>
+    <li class="">Los Juzgados de lo Social.</li>
+    <li class="correct">El Tribunal Supremo.</li>
+    <li class="">La Audiencia Nacional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué ocurre si un empresario realiza una modificación sustancial en las condiciones laborales sin justificación legal? El trabajador puede impugnar la decisión y solicitar indemnización. El contrato se considera nulo automáticamente. El trabajador pierde el derecho a negociar.">
+  <h3>82. ¿Qué ocurre si un empresario realiza una modificación sustancial en las condiciones laborales sin justificación legal?</h3>
+  <ul>
+    <li class="correct">El trabajador puede impugnar la decisión y solicitar indemnización.</li>
+    <li class="">El contrato se considera nulo automáticamente.</li>
+    <li class="">El trabajador pierde el derecho a negociar.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué objetivo tienen las medidas de conciliación de la vida laboral y familiar? Aumentar la jornada laboral. Equilibrar las responsabilidades laborales y familiares del trabajador. Reducir los costes empresariales.">
+  <h3>83. ¿Qué objetivo tienen las medidas de conciliación de la vida laboral y familiar?</h3>
+  <ul>
+    <li class="">Aumentar la jornada laboral.</li>
+    <li class="correct">Equilibrar las responsabilidades laborales y familiares del trabajador.</li>
+    <li class="">Reducir los costes empresariales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué obligación tienen los empresarios en prevención de riesgos laborales? Realizar evaluaciones de riesgos y formar a los trabajadores. Organizar fiestas anuales. Comprar material de oficina.">
+  <h3>84. ¿Qué obligación tienen los empresarios en prevención de riesgos laborales?</h3>
+  <ul>
+    <li class="correct">Realizar evaluaciones de riesgos y formar a los trabajadores.</li>
+    <li class="">Organizar fiestas anuales.</li>
+    <li class="">Comprar material de oficina.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué deben incluir los contratos laborales según la normativa española? Nombre del empleado, duración y condiciones de trabajo. Planes de vacaciones de la empresa. Las preferencias de ocio del trabajador.">
+  <h3>85. ¿Qué deben incluir los contratos laborales según la normativa española?</h3>
+  <ul>
+    <li class="correct">Nombre del empleado, duración y condiciones de trabajo.</li>
+    <li class="">Planes de vacaciones de la empresa.</li>
+    <li class="">Las preferencias de ocio del trabajador.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué derecho protege a los trabajadores frente a discriminaciones? Derecho a la igualdad y no discriminación. Derecho a la huelga. Derecho a la confidencialidad.">
+  <h3>86. ¿Qué derecho protege a los trabajadores frente a discriminaciones?</h3>
+  <ul>
+    <li class="correct">Derecho a la igualdad y no discriminación.</li>
+    <li class="">Derecho a la huelga.</li>
+    <li class="">Derecho a la confidencialidad.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué sucede si no se formaliza un contrato temporal por escrito cuando es requerido? El trabajador pierde sus derechos laborales. El contrato puede considerarse indefinido. Se invalida automáticamente el contrato.">
+  <h3>87. ¿Qué sucede si no se formaliza un contrato temporal por escrito cuando es requerido?</h3>
+  <ul>
+    <li class="">El trabajador pierde sus derechos laborales.</li>
+    <li class="correct">El contrato puede considerarse indefinido.</li>
+    <li class="">Se invalida automáticamente el contrato.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué derecho tienen los trabajadores según el Artículo 35 de la Constitución Española? Derecho al trabajo y a una remuneración suficiente. Derecho a participar en reuniones internacionales. Derecho a crear sus propias leyes laborales.">
+  <h3>88. ¿Qué derecho tienen los trabajadores según el Artículo 35 de la Constitución Española?</h3>
+  <ul>
+    <li class="correct">Derecho al trabajo y a una remuneración suficiente.</li>
+    <li class="">Derecho a participar en reuniones internacionales.</li>
+    <li class="">Derecho a crear sus propias leyes laborales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de contrato requiere inscripción obligatoria en el SEPE en los primeros 10 días? Contrato verbal temporal. Contrato indefinido escrito. Contrato de formación en alternancia.">
+  <h3>89. ¿Qué tipo de contrato requiere inscripción obligatoria en el SEPE en los primeros 10 días?</h3>
+  <ul>
+    <li class="">Contrato verbal temporal.</li>
+    <li class="correct">Contrato indefinido escrito.</li>
+    <li class="">Contrato de formación en alternancia.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel juegan los convenios colectivos en el marco legal laboral? Sustituir las leyes laborales nacionales. Adaptar las condiciones laborales generales a sectores específicos. Crear nuevos derechos laborales individuales.">
+  <h3>90. ¿Qué papel juegan los convenios colectivos en el marco legal laboral?</h3>
+  <ul>
+    <li class="">Sustituir las leyes laborales nacionales.</li>
+    <li class="correct">Adaptar las condiciones laborales generales a sectores específicos.</li>
+    <li class="">Crear nuevos derechos laborales individuales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué regula el derecho a la seguridad y salud en el trabajo? El cumplimiento del horario laboral. La implementación de medidas para prevenir accidentes y enfermedades. La remuneración económica de los trabajadores.">
+  <h3>91. ¿Qué regula el derecho a la seguridad y salud en el trabajo?</h3>
+  <ul>
+    <li class="">El cumplimiento del horario laboral.</li>
+    <li class="correct">La implementación de medidas para prevenir accidentes y enfermedades.</li>
+    <li class="">La remuneración económica de los trabajadores.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué garantiza la negociación colectiva en el ámbito laboral? La igualdad de género en el trabajo. El diálogo entre trabajadores y empresarios para regular condiciones laborales. La organización de horarios en las empresas.">
+  <h3>92. ¿Qué garantiza la negociación colectiva en el ámbito laboral?</h3>
+  <ul>
+    <li class="">La igualdad de género en el trabajo.</li>
+    <li class="correct">El diálogo entre trabajadores y empresarios para regular condiciones laborales.</li>
+    <li class="">La organización de horarios en las empresas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué significa el carácter protector del derecho del trabajo? Proteger los derechos del empresario. Proteger al trabajador como la parte más débil en una relación laboral. Evitar conflictos laborales entre empresas.">
+  <h3>93. ¿Qué significa el carácter protector del derecho del trabajo?</h3>
+  <ul>
+    <li class="">Proteger los derechos del empresario.</li>
+    <li class="correct">Proteger al trabajador como la parte más débil en una relación laboral.</li>
+    <li class="">Evitar conflictos laborales entre empresas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Cómo pueden las competencias blandas impactar en el éxito profesional? Reemplazan la necesidad de habilidades técnicas. Mejoran la colaboración, la comunicación y el liderazgo en el entorno laboral. Se centran en conocimientos específicos de una industria.">
+  <h3>94. ¿Cómo pueden las competencias blandas impactar en el éxito profesional?</h3>
+  <ul>
+    <li class="">Reemplazan la necesidad de habilidades técnicas.</li>
+    <li class="correct">Mejoran la colaboración, la comunicación y el liderazgo en el entorno laboral.</li>
+    <li class="">Se centran en conocimientos específicos de una industria.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué elemento puede ser considerado una amenaza en un análisis DAFO? Competencia laboral en el mercado objetivo. Falta de habilidades técnicas personales. Un salario bajo en un empleo actual.">
+  <h3>95. ¿Qué elemento puede ser considerado una amenaza en un análisis DAFO?</h3>
+  <ul>
+    <li class="correct">Competencia laboral en el mercado objetivo.</li>
+    <li class="">Falta de habilidades técnicas personales.</li>
+    <li class="">Un salario bajo en un empleo actual.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué representa un desafío común en la planificación de metas SMART? Hacerlas demasiado específicas. Equilibrar su viabilidad con su impacto en la carrera profesional. Ignorar la necesidad de medir su progreso.">
+  <h3>96. ¿Qué representa un desafío común en la planificación de metas SMART?</h3>
+  <ul>
+    <li class="">Hacerlas demasiado específicas.</li>
+    <li class="correct">Equilibrar su viabilidad con su impacto en la carrera profesional.</li>
+    <li class="">Ignorar la necesidad de medir su progreso.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel juega el CV en la búsqueda de empleo? Facilitar el contacto directo con empresas. Resumir la formación y experiencia profesional de un candidato. Garantizar automáticamente una oferta de trabajo.">
+  <h3>97. ¿Qué papel juega el CV en la búsqueda de empleo?</h3>
+  <ul>
+    <li class="">Facilitar el contacto directo con empresas.</li>
+    <li class="correct">Resumir la formación y experiencia profesional de un candidato.</li>
+    <li class="">Garantizar automáticamente una oferta de trabajo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué representa un análisis DAFO en la orientación profesional? Una técnica para redactar currículums. Una evaluación de intereses laborales. Un análisis de debilidades, amenazas, fortalezas y oportunidades.">
+  <h3>98. ¿Qué representa un análisis DAFO en la orientación profesional?</h3>
+  <ul>
+    <li class="">Una técnica para redactar currículums.</li>
+    <li class="">Una evaluación de intereses laborales.</li>
+    <li class="correct">Un análisis de debilidades, amenazas, fortalezas y oportunidades.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una motivación intrínseca? Un incentivo externo como el salario. La satisfacción personal al realizar una actividad. La búsqueda de reconocimiento social.">
+  <h3>99. ¿Qué es una motivación intrínseca?</h3>
+  <ul>
+    <li class="">Un incentivo externo como el salario.</li>
+    <li class="correct">La satisfacción personal al realizar una actividad.</li>
+    <li class="">La búsqueda de reconocimiento social.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué caracteriza a una meta profesional SMART? Estar bien estructurada y ser realista. Ser genérica y flexible. Basarse únicamente en las necesidades del mercado.">
+  <h3>100. ¿Qué caracteriza a una meta profesional SMART?</h3>
+  <ul>
+    <li class="correct">Estar bien estructurada y ser realista.</li>
+    <li class="">Ser genérica y flexible.</li>
+    <li class="">Basarse únicamente en las necesidades del mercado.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica la proactividad en el ámbito laboral? Actuar solo cuando se reciben instrucciones. Tomar la iniciativa y anticiparse a problemas o necesidades. Delegar todas las decisiones en un supervisor.">
+  <h3>101. ¿Qué implica la proactividad en el ámbito laboral?</h3>
+  <ul>
+    <li class="">Actuar solo cuando se reciben instrucciones.</li>
+    <li class="correct">Tomar la iniciativa y anticiparse a problemas o necesidades.</li>
+    <li class="">Delegar todas las decisiones en un supervisor.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué diferencia a una meta a corto plazo de una a largo plazo? Su grado de especificidad. Su duración temporal y objetivos inmediatos. La necesidad de recursos económicos.">
+  <h3>102. ¿Qué diferencia a una meta a corto plazo de una a largo plazo?</h3>
+  <ul>
+    <li class="">Su grado de especificidad.</li>
+    <li class="correct">Su duración temporal y objetivos inmediatos.</li>
+    <li class="">La necesidad de recursos económicos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué elemento se considera una fortaleza en un análisis DAFO? Factores internos que benefician el desempeño profesional. Retos externos que pueden limitar las oportunidades laborales. Oportunidades de formación en el mercado laboral.">
+  <h3>103. ¿Qué elemento se considera una fortaleza en un análisis DAFO?</h3>
+  <ul>
+    <li class="correct">Factores internos que benefician el desempeño profesional.</li>
+    <li class="">Retos externos que pueden limitar las oportunidades laborales.</li>
+    <li class="">Oportunidades de formación en el mercado laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué significa tener orientación al logro en un entorno laboral? Buscar reconocimiento sin importar los resultados. Establecer metas y trabajar con determinación para alcanzarlas. Ignorar las métricas de desempeño personal.">
+  <h3>104. ¿Qué significa tener orientación al logro en un entorno laboral?</h3>
+  <ul>
+    <li class="">Buscar reconocimiento sin importar los resultados.</li>
+    <li class="correct">Establecer metas y trabajar con determinación para alcanzarlas.</li>
+    <li class="">Ignorar las métricas de desempeño personal.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué importancia tiene una actitud positiva en la búsqueda de empleo? Aumentar las probabilidades de ser considerado para un puesto. Garantizar una oferta de trabajo inmediata. Reducir la necesidad de actualizar el currículum.">
+  <h3>105. ¿Qué importancia tiene una actitud positiva en la búsqueda de empleo?</h3>
+  <ul>
+    <li class="correct">Aumentar las probabilidades de ser considerado para un puesto.</li>
+    <li class="">Garantizar una oferta de trabajo inmediata.</li>
+    <li class="">Reducir la necesidad de actualizar el currículum.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué objetivo tiene el networking profesional? Crear redes de contacto para generar oportunidades laborales y de colaboración. Participar en actividades recreativas fuera del trabajo. Evitar la competencia en el ámbito laboral.">
+  <h3>106. ¿Qué objetivo tiene el networking profesional?</h3>
+  <ul>
+    <li class="correct">Crear redes de contacto para generar oportunidades laborales y de colaboración.</li>
+    <li class="">Participar en actividades recreativas fuera del trabajo.</li>
+    <li class="">Evitar la competencia en el ámbito laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de red constituye una PLN? Una red limitada a conexiones locales. Una red amplia que incluye contactos de diversas disciplinas y ubicaciones. Una red restringida a un solo grupo profesional.">
+  <h3>107. ¿Qué tipo de red constituye una PLN?</h3>
+  <ul>
+    <li class="">Una red limitada a conexiones locales.</li>
+    <li class="correct">Una red amplia que incluye contactos de diversas disciplinas y ubicaciones.</li>
+    <li class="">Una red restringida a un solo grupo profesional.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué técnica fomenta el pensamiento crítico en el aprendizaje digital? Aceptar toda la información disponible sin cuestionamientos. Analizar los datos desde múltiples perspectivas antes de tomar decisiones. Evitar el uso de fuentes externas.">
+  <h3>108. ¿Qué técnica fomenta el pensamiento crítico en el aprendizaje digital?</h3>
+  <ul>
+    <li class="">Aceptar toda la información disponible sin cuestionamientos.</li>
+    <li class="correct">Analizar los datos desde múltiples perspectivas antes de tomar decisiones.</li>
+    <li class="">Evitar el uso de fuentes externas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué desafío presenta el aprendizaje en línea? Acceso limitado a recursos. Autodisciplina para gestionar el tiempo y evitar distracciones. Falta de herramientas digitales accesibles.">
+  <h3>109. ¿Qué desafío presenta el aprendizaje en línea?</h3>
+  <ul>
+    <li class="">Acceso limitado a recursos.</li>
+    <li class="correct">Autodisciplina para gestionar el tiempo y evitar distracciones.</li>
+    <li class="">Falta de herramientas digitales accesibles.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué importancia tiene la huella digital en la identidad profesional? Es irrelevante para los empleadores. Refleja los intereses, comportamientos y preferencias en línea. Solo incluye el currículum en formato digital.">
+  <h3>110. ¿Qué importancia tiene la huella digital en la identidad profesional?</h3>
+  <ul>
+    <li class="">Es irrelevante para los empleadores.</li>
+    <li class="correct">Refleja los intereses, comportamientos y preferencias en línea.</li>
+    <li class="">Solo incluye el currículum en formato digital.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se entiende por un entorno personal de aprendizaje (EPA)? Un lugar fijo de estudio en una institución académica. Herramientas y recursos utilizados para gestionar el aprendizaje de manera autónoma. Una red de contactos sociales sin enfoque educativo.">
+  <h3>111. ¿Qué se entiende por un entorno personal de aprendizaje (EPA)?</h3>
+  <ul>
+    <li class="">Un lugar fijo de estudio en una institución académica.</li>
+    <li class="correct">Herramientas y recursos utilizados para gestionar el aprendizaje de manera autónoma.</li>
+    <li class="">Una red de contactos sociales sin enfoque educativo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué característica define la autonomía en el aprendizaje permanente? Depender de instructores para guiar el aprendizaje. Gestionar de manera independiente el proceso de aprendizaje. Aprender únicamente de otras personas.">
+  <h3>112. ¿Qué característica define la autonomía en el aprendizaje permanente?</h3>
+  <ul>
+    <li class="">Depender de instructores para guiar el aprendizaje.</li>
+    <li class="correct">Gestionar de manera independiente el proceso de aprendizaje.</li>
+    <li class="">Aprender únicamente de otras personas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿En qué se basa la evaluación 360º? Es una metodología que compara las competencias actuales con las competencias requeridas para alcanzar las metas profesionales o académicas. Se basa en identificar amenazas y oportunidades del sector empresarial. Es una herramienta para desarrollar habilidades interpersonales y de liderazgo.">
+  <h3>113. ¿En qué se basa la evaluación 360º?</h3>
+  <ul>
+    <li class="">Es una metodología que compara las competencias actuales con las competencias requeridas para alcanzar las metas profesionales o académicas.</li>
+    <li class="">Se basa en identificar amenazas y oportunidades del sector empresarial.</li>
+    <li class="correct">Es una herramienta para desarrollar habilidades interpersonales y de liderazgo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="Las herramientas digitales que ayudan a estructura el tiempo de estudio y los recursos de manera eficiente se consideran: PLN (Redes personales de aprendizaje). Herramientas de organización y Un entorno físico donde se guardan materiales de estudio. Herramientas de gestión de contenidos.">
+  <h3>114. Las herramientas digitales que ayudan a estructura el tiempo de estudio y los recursos de manera eficiente se consideran?</h3>
+  <ul>
+    <li class="">PLN (Redes personales de aprendizaje).</li>
+    <li class="correct">Herramientas de organización y Un entorno físico donde se guardan materiales de estudio.</li>
+    <li class="">Herramientas de gestión de contenidos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué importancia tiene la evaluación en el aprendizaje autónomo? Permite identificar avances y ajustar estrategias si es necesario. Solo se utiliza al final del proceso de aprendizaje. Es irrelevante en la planificación del aprendizaje.">
+  <h3>115. ¿Qué importancia tiene la evaluación en el aprendizaje autónomo?</h3>
+  <ul>
+    <li class="correct">Permite identificar avances y ajustar estrategias si es necesario.</li>
+    <li class="">Solo se utiliza al final del proceso de aprendizaje.</li>
+    <li class="">Es irrelevante en la planificación del aprendizaje.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué habilidad es fundamental para participar en comunidades de aprendizaje en línea? Dominio de un único tema específico. Capacidad de interactuar, colaborar y compartir conocimiento. Evitar discusiones y mantener un perfil pasivo.">
+  <h3>116. ¿Qué habilidad es fundamental para participar en comunidades de aprendizaje en línea?</h3>
+  <ul>
+    <li class="">Dominio de un único tema específico.</li>
+    <li class="correct">Capacidad de interactuar, colaborar y compartir conocimiento.</li>
+    <li class="">Evitar discusiones y mantener un perfil pasivo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="Las bibliotecas digitales: Ofrecen cursos online de diversas disciplinas impartidas por universidades y expertos conocidos. Presentan vídeos de influencers en los que se exponen variedad de temas. Proporcionan acceso a artículos académicos, investigaciones y publicaciones especializadas.">
+  <h3>117. Las bibliotecas digitales?</h3>
+  <ul>
+    <li class="">Ofrecen cursos online de diversas disciplinas impartidas por universidades y expertos conocidos.</li>
+    <li class="">Presentan vídeos de influencers en los que se exponen variedad de temas.</li>
+    <li class="correct">Proporcionan acceso a artículos académicos, investigaciones y publicaciones especializadas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="Crear un entorno personal de aprendizaje: Ofrece beneficios tanto a nivel personal como profesional. Aumenta la competitividad de los perfiles directivos. Aporta ventajas profesionales, pero no personales.">
+  <h3>118. Crear un entorno personal de aprendizaje?</h3>
+  <ul>
+    <li class="correct">Ofrece beneficios tanto a nivel personal como profesional.</li>
+    <li class="">Aumenta la competitividad de los perfiles directivos.</li>
+    <li class="">Aporta ventajas profesionales, pero no personales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una brecha digital? Una desconexión breve de internet. La diferencia en el acceso y uso de tecnologías digitales entre grupos sociales. Una actualización de software obsoleta.">
+  <h3>119. ¿Qué es una brecha digital?</h3>
+  <ul>
+    <li class="">Una desconexión breve de internet.</li>
+    <li class="correct">La diferencia en el acceso y uso de tecnologías digitales entre grupos sociales.</li>
+    <li class="">Una actualización de software obsoleta.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel desempeñan los blogs en un EPA? Son herramientas para expresar ideas y reflexionar sobre el aprendizaje. Sustituyen completamente a las plataformas de aprendizaje profesional. Funcionan únicamente como entretenimiento.">
+  <h3>120. ¿Qué papel desempeñan los blogs en un EPA?</h3>
+  <ul>
+    <li class="correct">Son herramientas para expresar ideas y reflexionar sobre el aprendizaje.</li>
+    <li class="">Sustituyen completamente a las plataformas de aprendizaje profesional.</li>
+    <li class="">Funcionan únicamente como entretenimiento.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué establece el artículo 37 de la Constitución Española sobre negociación colectiva? Las negociaciones son opcionales según el empleador. La negociación colectiva tiene fuerza vinculante para ambas partes. Los sindicatos no pueden participar en negociaciones.">
+  <h3>121. ¿Qué establece el artículo 37 de la Constitución Española sobre negociación colectiva?</h3>
+  <ul>
+    <li class="">Las negociaciones son opcionales según el empleador.</li>
+    <li class="correct">La negociación colectiva tiene fuerza vinculante para ambas partes.</li>
+    <li class="">Los sindicatos no pueden participar en negociaciones.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se considera una infracción grave en materia de relaciones laborales? El incumplimiento de las normas de seguridad laboral. La falta de puntualidad ocasional del trabajador. No respetar las vacaciones del empleador.">
+  <h3>122. ¿Qué se considera una infracción grave en materia de relaciones laborales?</h3>
+  <ul>
+    <li class="correct">El incumplimiento de las normas de seguridad laboral.</li>
+    <li class="">La falta de puntualidad ocasional del trabajador.</li>
+    <li class="">No respetar las vacaciones del empleador.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué sucede si no se registra un contrato laboral escrito en el SEPE en los plazos establecidos? Se invalida automáticamente. Se considera un contrato indefinido. Se convierte en un contrato temporal.">
+  <h3>123. ¿Qué sucede si no se registra un contrato laboral escrito en el SEPE en los plazos establecidos?</h3>
+  <ul>
+    <li class="">Se invalida automáticamente.</li>
+    <li class="correct">Se considera un contrato indefinido.</li>
+    <li class="">Se convierte en un contrato temporal.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué determina el salario mínimo interprofesional? La Constitución Española. El Estatuto de los Trabajadores. El convenio colectivo.">
+  <h3>124. ¿Qué determina el salario mínimo interprofesional?</h3>
+  <ul>
+    <li class="">La Constitución Española.</li>
+    <li class="correct">El Estatuto de los Trabajadores.</li>
+    <li class="">El convenio colectivo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es un convenio colectivo? Un acuerdo entre trabajadores y empresarios para mejorar las condiciones laborales. Un contrato de alquiler. Una ley internacional de derechos humanos.">
+  <h3>125. ¿Qué es un convenio colectivo?</h3>
+  <ul>
+    <li class="correct">Un acuerdo entre trabajadores y empresarios para mejorar las condiciones laborales.</li>
+    <li class="">Un contrato de alquiler.</li>
+    <li class="">Una ley internacional de derechos humanos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué garantiza el derecho a la libertad sindical? Elegir libremente afiliarse o no a un sindicato. Participar en reuniones familiares. Cambiar de puesto de trabajo.">
+  <h3>126. ¿Qué garantiza el derecho a la libertad sindical?</h3>
+  <ul>
+    <li class="correct">Elegir libremente afiliarse o no a un sindicato.</li>
+    <li class="">Participar en reuniones familiares.</li>
+    <li class="">Cambiar de puesto de trabajo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué permite el derecho a la desconexión digital? Trabajar horas extra de forma voluntaria. No ser contactado fuera del horario laboral. Reducir la jornada laboral diaria.">
+  <h3>127. ¿Qué permite el derecho a la desconexión digital?</h3>
+  <ul>
+    <li class="">Trabajar horas extra de forma voluntaria.</li>
+    <li class="correct">No ser contactado fuera del horario laboral.</li>
+    <li class="">Reducir la jornada laboral diaria.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué sucede si un contrato temporal se extiende más allá del tiempo permitido? Finaliza automáticamente. Se convierte en un contrato indefinido. El trabajador pierde derechos laborales.">
+  <h3>128. ¿Qué sucede si un contrato temporal se extiende más allá del tiempo permitido?</h3>
+  <ul>
+    <li class="">Finaliza automáticamente.</li>
+    <li class="correct">Se convierte en un contrato indefinido.</li>
+    <li class="">El trabajador pierde derechos laborales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué implica el deber de confidencialidad para un trabajador? No divulgar información confidencial de la empresa. Mantener en secreto su salario. Respetar el tiempo de descanso de otros empleados.">
+  <h3>129. ¿Qué implica el deber de confidencialidad para un trabajador?</h3>
+  <ul>
+    <li class="correct">No divulgar información confidencial de la empresa.</li>
+    <li class="">Mantener en secreto su salario.</li>
+    <li class="">Respetar el tiempo de descanso de otros empleados.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué función tiene el Servicio de Mediación, Arbitraje y Conciliación (SMAC)? Organizar reuniones empresariales. Mediar entre trabajadores y empresarios antes de una demanda judicial. Elaborar contratos de trabajo.">
+  <h3>130. ¿Qué función tiene el Servicio de Mediación, Arbitraje y Conciliación (SMAC)?</h3>
+  <ul>
+    <li class="">Organizar reuniones empresariales.</li>
+    <li class="correct">Mediar entre trabajadores y empresarios antes de una demanda judicial.</li>
+    <li class="">Elaborar contratos de trabajo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué objetivo tiene el derecho a la negociación colectiva según el Artículo 37 de la Constitución? Garantizar un diálogo efectivo entre trabajadores y empresarios. Reducir la jornada laboral sin pérdida salarial. Incrementar automáticamente los salarios.">
+  <h3>131. ¿Qué objetivo tiene el derecho a la negociación colectiva según el Artículo 37 de la Constitución?</h3>
+  <ul>
+    <li class="correct">Garantizar un diálogo efectivo entre trabajadores y empresarios.</li>
+    <li class="">Reducir la jornada laboral sin pérdida salarial.</li>
+    <li class="">Incrementar automáticamente los salarios.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué medidas deben tomar los empresarios en materia de prevención de riesgos laborales? Evitar las evaluaciones de riesgos. Implementar medidas de seguridad y formación continua. Reemplazar los contratos temporales por indefinidos.">
+  <h3>132. ¿Qué medidas deben tomar los empresarios en materia de prevención de riesgos laborales?</h3>
+  <ul>
+    <li class="">Evitar las evaluaciones de riesgos.</li>
+    <li class="correct">Implementar medidas de seguridad y formación continua.</li>
+    <li class="">Reemplazar los contratos temporales por indefinidos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué establece la Ley de Igualdad Efectiva entre Mujeres y Hombres? Igualdad de trato y oportunidades en el ámbito laboral. Limitación de contratos indefinidos. Reducción de horarios para mujeres.">
+  <h3>133. ¿Qué establece la Ley de Igualdad Efectiva entre Mujeres y Hombres?</h3>
+  <ul>
+    <li class="correct">Igualdad de trato y oportunidades en el ámbito laboral.</li>
+    <li class="">Limitación de contratos indefinidos.</li>
+    <li class="">Reducción de horarios para mujeres.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué riesgo puede representar la falta de adaptabilidad en un entorno laboral cambiante? Mejorar la seguridad laboral. Reducir la capacidad de aprovechar nuevas oportunidades. Incrementar las posibilidades de ascenso.">
+  <h3>134. ¿Qué riesgo puede representar la falta de adaptabilidad en un entorno laboral cambiante?</h3>
+  <ul>
+    <li class="">Mejorar la seguridad laboral.</li>
+    <li class="correct">Reducir la capacidad de aprovechar nuevas oportunidades.</li>
+    <li class="">Incrementar las posibilidades de ascenso.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué puede indicar una debilidad en un análisis DAFO aplicado a un individuo? Factores externos que afectan la empleabilidad. Competencias limitadas o áreas que requieren mejora personal. Amenazas del mercado laboral.">
+  <h3>135. ¿Qué puede indicar una debilidad en un análisis DAFO aplicado a un individuo?</h3>
+  <ul>
+    <li class="">Factores externos que afectan la empleabilidad.</li>
+    <li class="correct">Competencias limitadas o áreas que requieren mejora personal.</li>
+    <li class="">Amenazas del mercado laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué diferencia clave existe entre el currículum funcional y el mixto? El mixto combina la estructura cronológica con el enfoque en competencias. El funcional se centra únicamente en las fechas de empleo. El mixto omite completamente los datos personales.">
+  <h3>136. ¿Qué diferencia clave existe entre el currículum funcional y el mixto?</h3>
+  <ul>
+    <li class="correct">El mixto combina la estructura cronológica con el enfoque en competencias.</li>
+    <li class="">El funcional se centra únicamente en las fechas de empleo.</li>
+    <li class="">El mixto omite completamente los datos personales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué significa el autoconocimiento en el ámbito laboral? Identificar las habilidades de los demás. Reconocer fortalezas y debilidades propias. Analizar las oportunidades externas únicamente.">
+  <h3>137. ¿Qué significa el autoconocimiento en el ámbito laboral?</h3>
+  <ul>
+    <li class="">Identificar las habilidades de los demás.</li>
+    <li class="correct">Reconocer fortalezas y debilidades propias.</li>
+    <li class="">Analizar las oportunidades externas únicamente.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se busca al establecer metas profesionales a largo plazo? Completar objetivos inmediatos. Diseñar una trayectoria profesional coherente. Incrementar la formación académica exclusivamente.">
+  <h3>138. ¿Qué se busca al establecer metas profesionales a largo plazo?</h3>
+  <ul>
+    <li class="">Completar objetivos inmediatos.</li>
+    <li class="correct">Diseñar una trayectoria profesional coherente.</li>
+    <li class="">Incrementar la formación académica exclusivamente.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué tipo de intereses laborales se relacionan con la creatividad? Intereses técnicos. Intereses sociales. Intereses artísticos.">
+  <h3>139. ¿Qué tipo de intereses laborales se relacionan con la creatividad?</h3>
+  <ul>
+    <li class="">Intereses técnicos.</li>
+    <li class="">Intereses sociales.</li>
+    <li class="correct">Intereses artísticos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué aspecto es crucial al redactar una carta de presentación? Repetir la información del currículum sin variaciones. Destacar logros relevantes y adaptar el contenido a la oferta laboral. Utilizar un formato genérico para todas las empresas.">
+  <h3>140. ¿Qué aspecto es crucial al redactar una carta de presentación?</h3>
+  <ul>
+    <li class="">Repetir la información del currículum sin variaciones.</li>
+    <li class="correct">Destacar logros relevantes y adaptar el contenido a la oferta laboral.</li>
+    <li class="">Utilizar un formato genérico para todas las empresas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es una carta de recomendación? Un documento donde el candidato describe sus habilidades. Un escrito donde un antiguo empleador avala las competencias del trabajador. Un informe elaborado por un orientador laboral.">
+  <h3>141. ¿Qué es una carta de recomendación?</h3>
+  <ul>
+    <li class="">Un documento donde el candidato describe sus habilidades.</li>
+    <li class="correct">Un escrito donde un antiguo empleador avala las competencias del trabajador.</li>
+    <li class="">Un informe elaborado por un orientador laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué representa una oportunidad en un análisis DAFO? Factores internos que favorecen el desempeño. Factores externos positivos que pueden ser aprovechados. Retos del mercado laboral que deben superarse.">
+  <h3>142. ¿Qué representa una oportunidad en un análisis DAFO?</h3>
+  <ul>
+    <li class="">Factores internos que favorecen el desempeño.</li>
+    <li class="correct">Factores externos positivos que pueden ser aprovechados.</li>
+    <li class="">Retos del mercado laboral que deben superarse.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se debe priorizar en la planificación de una carrera profesional? Elegir trabajos sin considerar habilidades y metas. Identificar objetivos coherentes con intereses y capacidades. Cambiar de empleo frecuentemente sin planificación.">
+  <h3>143. ¿Qué se debe priorizar en la planificación de una carrera profesional?</h3>
+  <ul>
+    <li class="">Elegir trabajos sin considerar habilidades y metas.</li>
+    <li class="correct">Identificar objetivos coherentes con intereses y capacidades.</li>
+    <li class="">Cambiar de empleo frecuentemente sin planificación.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué debe incluir un análisis DAFO bien realizado? Un listado de habilidades sin contexto. Un balance entre factores internos (debilidades y fortalezas) y externos (oportunidades y amenazas). Solo las amenazas del mercado laboral.">
+  <h3>144. ¿Qué debe incluir un análisis DAFO bien realizado?</h3>
+  <ul>
+    <li class="">Un listado de habilidades sin contexto.</li>
+    <li class="correct">Un balance entre factores internos (debilidades y fortalezas) y externos (oportunidades y amenazas).</li>
+    <li class="">Solo las amenazas del mercado laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué beneficio aporta el autoconocimiento en la búsqueda de empleo? Permite ocultar debilidades en las entrevistas. Facilita la elección de trabajos afines a habilidades y valores personales. Reduce la necesidad de formación continua.">
+  <h3>145. ¿Qué beneficio aporta el autoconocimiento en la búsqueda de empleo?</h3>
+  <ul>
+    <li class="">Permite ocultar debilidades en las entrevistas.</li>
+    <li class="correct">Facilita la elección de trabajos afines a habilidades y valores personales.</li>
+    <li class="">Reduce la necesidad de formación continua.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué aspecto es clave en la resolución de problemas laborales? Identificar las causas raíz y generar soluciones creativas. Evitar tomar decisiones inmediatas. Delegar la responsabilidad a otros compañeros.">
+  <h3>146. ¿Qué aspecto es clave en la resolución de problemas laborales?</h3>
+  <ul>
+    <li class="correct">Identificar las causas raíz y generar soluciones creativas.</li>
+    <li class="">Evitar tomar decisiones inmediatas.</li>
+    <li class="">Delegar la responsabilidad a otros compañeros.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel juega la creatividad en un EPA? Generar soluciones innovadoras para problemas de aprendizaje. Limitarse a enfoques tradicionales en el estudio. Evitar la flexibilidad en los métodos de aprendizaje.">
+  <h3>147. ¿Qué papel juega la creatividad en un EPA?</h3>
+  <ul>
+    <li class="correct">Generar soluciones innovadoras para problemas de aprendizaje.</li>
+    <li class="">Limitarse a enfoques tradicionales en el estudio.</li>
+    <li class="">Evitar la flexibilidad en los métodos de aprendizaje.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué estrategia ayuda a evaluar la fiabilidad de una fuente digital? Basarse en su diseño visual. Verificar su autoría, referencias y actualizaciones. Seleccionarla por su popularidad en redes sociales.">
+  <h3>148. ¿Qué estrategia ayuda a evaluar la fiabilidad de una fuente digital?</h3>
+  <ul>
+    <li class="">Basarse en su diseño visual.</li>
+    <li class="correct">Verificar su autoría, referencias y actualizaciones.</li>
+    <li class="">Seleccionarla por su popularidad en redes sociales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué impacto tiene la marca personal digital en el desarrollo profesional? Incrementa la visibilidad y credibilidad en el entorno laboral. Restringe las oportunidades laborales al limitar las interacciones. Sustituye la necesidad de redes de contacto.">
+  <h3>149. ¿Qué impacto tiene la marca personal digital en el desarrollo profesional?</h3>
+  <ul>
+    <li class="correct">Incrementa la visibilidad y credibilidad en el entorno laboral.</li>
+    <li class="">Restringe las oportunidades laborales al limitar las interacciones.</li>
+    <li class="">Sustituye la necesidad de redes de contacto.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué papel juegan las VPN en la seguridad digital? Facilitan el acceso a datos personales de otros usuarios. Cifran las conexiones para proteger la privacidad en línea. Eliminar datos de dispositivos antiguos.">
+  <h3>150. ¿Qué papel juegan las VPN en la seguridad digital?</h3>
+  <ul>
+    <li class="">Facilitan el acceso a datos personales de otros usuarios.</li>
+    <li class="correct">Cifran las conexiones para proteger la privacidad en línea.</li>
+    <li class="">Eliminar datos de dispositivos antiguos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué beneficio ofrece la creación de un EPA? Limitar el aprendizaje a un solo tema. Mejorar el proceso educativo al adaptarlo a necesidades individuales. Evitar la participación en comunidades de aprendizaje.">
+  <h3>151. ¿Qué beneficio ofrece la creación de un EPA?</h3>
+  <ul>
+    <li class="">Limitar el aprendizaje a un solo tema.</li>
+    <li class="correct">Mejorar el proceso educativo al adaptarlo a necesidades individuales.</li>
+    <li class="">Evitar la participación en comunidades de aprendizaje.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es el phishing? Una técnica para proteger datos personales. Un método para obtener información sensible de manera fraudulenta. Un software de seguridad digital.">
+  <h3>152. ¿Qué es el phishing?</h3>
+  <ul>
+    <li class="">Una técnica para proteger datos personales.</li>
+    <li class="correct">Un método para obtener información sensible de manera fraudulenta.</li>
+    <li class="">Un software de seguridad digital.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué acción refuerza una identidad digital profesional? Publicar contenido irrelevante en redes sociales. Mantener perfiles actualizados y consistentes en plataformas profesionales. Evitar interactuar con contactos relevantes en línea.">
+  <h3>153. ¿Qué acción refuerza una identidad digital profesional?</h3>
+  <ul>
+    <li class="">Publicar contenido irrelevante en redes sociales.</li>
+    <li class="correct">Mantener perfiles actualizados y consistentes en plataformas profesionales.</li>
+    <li class="">Evitar interactuar con contactos relevantes en línea.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="Cuando se recopilan y publican información privada de una persona en internet sin su consentimiento, con el objetivo de acosarla e intimidarla, hablamos de: Doxing. Suplantación de identidad. Phishing.">
+  <h3>154. Cuando se recopilan y publican información privada de una persona en internet sin su consentimiento, con el objetivo de acosarla e intimidarla, hablamos de?</h3>
+  <ul>
+    <li class="correct">Doxing.</li>
+    <li class="">Suplantación de identidad.</li>
+    <li class="">Phishing.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es el aprendizaje colaborativo? Estudiar de forma aislada para centrarse mejor en las tareas. Trabajar en equipo para lograr metas de aprendizaje compartidas. Delegar responsabilidades de aprendizaje en los demás.">
+  <h3>155. ¿Qué es el aprendizaje colaborativo?</h3>
+  <ul>
+    <li class="">Estudiar de forma aislada para centrarse mejor en las tareas.</li>
+    <li class="correct">Trabajar en equipo para lograr metas de aprendizaje compartidas.</li>
+    <li class="">Delegar responsabilidades de aprendizaje en los demás.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="Señala cuál de las siguientes herramientas no es una herramienta de gestión de contenido: Moodle. Trello. Evernote.">
+  <h3>156. Señala cuál de las siguientes herramientas no es una herramienta de gestión de contenido?</h3>
+  <ul>
+    <li class="">Moodle.</li>
+    <li class="correct">Trello.</li>
+    <li class="">Evernote.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué diferencia clave existe entre un EPA y un PLN? Un EPA incluye redes de contactos. Un PLN se centra en las conexiones sociales para aprender. Ambos son términos intercambiables sin diferencias reales.">
+  <h3>157. ¿Qué diferencia clave existe entre un EPA y un PLN?</h3>
+  <ul>
+    <li class="">Un EPA incluye redes de contactos.</li>
+    <li class="correct">Un PLN se centra en las conexiones sociales para aprender.</li>
+    <li class="">Ambos son términos intercambiables sin diferencias reales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se considera una práctica de ciberseguridad adecuada? Utilizar contraseñas genéricas y fáciles de recordar. Actualizar regularmente contraseñas y utilizar autenticación en dos pasos. Compartir contraseñas con personas de confianza.">
+  <h3>158. ¿Qué se considera una práctica de ciberseguridad adecuada?</h3>
+  <ul>
+    <li class="">Utilizar contraseñas genéricas y fáciles de recordar.</li>
+    <li class="correct">Actualizar regularmente contraseñas y utilizar autenticación en dos pasos.</li>
+    <li class="">Compartir contraseñas con personas de confianza.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué recurso puede presentar un trabajador si considera injusta una sentencia laboral en primera instancia? Recurso de suplicación ante los Tribunales Superiores de Justicia. Denuncia directa en el Tribunal Supremo. Conciliación previa en el SMAC.">
+  <h3>159. ¿Qué recurso puede presentar un trabajador si considera injusta una sentencia laboral en primera instancia?</h3>
+  <ul>
+    <li class="correct">Recurso de suplicación ante los Tribunales Superiores de Justicia.</li>
+    <li class="">Denuncia directa en el Tribunal Supremo.</li>
+    <li class="">Conciliación previa en el SMAC.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué característica diferencia a los convenios colectivos sectoriales estatales? Su aplicación a un solo centro de trabajo. Su alcance a todo el territorio nacional en un sector específico. Su exclusividad para trabajadores con contratos temporales.">
+  <h3>160. ¿Qué característica diferencia a los convenios colectivos sectoriales estatales?</h3>
+  <ul>
+    <li class="">Su aplicación a un solo centro de trabajo.</li>
+    <li class="correct">Su alcance a todo el territorio nacional en un sector específico.</li>
+    <li class="">Su exclusividad para trabajadores con contratos temporales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se busca garantizar con el derecho a la seguridad y salud en el trabajo? La mejora continua de las instalaciones laborales. Un entorno seguro y libre de riesgos para los trabajadores. La reducción de horarios nocturnos.">
+  <h3>161. ¿Qué se busca garantizar con el derecho a la seguridad y salud en el trabajo?</h3>
+  <ul>
+    <li class="">La mejora continua de las instalaciones laborales.</li>
+    <li class="correct">Un entorno seguro y libre de riesgos para los trabajadores.</li>
+    <li class="">La reducción de horarios nocturnos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué documento establece los derechos fundamentales de los trabajadores en España? El Convenio Colectivo. La Constitución Española. El Manual de Recursos Humanos.">
+  <h3>162. ¿Qué documento establece los derechos fundamentales de los trabajadores en España?</h3>
+  <ul>
+    <li class="">El Convenio Colectivo.</li>
+    <li class="correct">La Constitución Española.</li>
+    <li class="">El Manual de Recursos Humanos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué derecho garantiza la desconexión digital? Derecho a no ser molestado fuera del horario laboral. Derecho a recibir formación tecnológica. Derecho a trabajar desde casa.">
+  <h3>163. ¿Qué derecho garantiza la desconexión digital?</h3>
+  <ul>
+    <li class="correct">Derecho a no ser molestado fuera del horario laboral.</li>
+    <li class="">Derecho a recibir formación tecnológica.</li>
+    <li class="">Derecho a trabajar desde casa.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué incluye el Estatuto de los Trabajadores? Las leyes de tráfico. La regulación de las relaciones laborales entre empresas y trabajadores. Las políticas internacionales de comercio.">
+  <h3>164. ¿Qué incluye el Estatuto de los Trabajadores?</h3>
+  <ul>
+    <li class="">Las leyes de tráfico.</li>
+    <li class="correct">La regulación de las relaciones laborales entre empresas y trabajadores.</li>
+    <li class="">Las políticas internacionales de comercio.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué organismo tiene la competencia para resolver conflictos laborales de ámbito nacional? El Tribunal Supremo. La Audiencia Nacional. Los Juzgados de lo Social.">
+  <h3>165. ¿Qué organismo tiene la competencia para resolver conflictos laborales de ámbito nacional?</h3>
+  <ul>
+    <li class="">El Tribunal Supremo.</li>
+    <li class="correct">La Audiencia Nacional.</li>
+    <li class="">Los Juzgados de lo Social.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué incluye el derecho a la intimidad y dignidad del trabajador? Evitar intromisiones en su vida personal y respeto en el ámbito laboral. La libertad para faltar al trabajo sin motivo. Elegir los horarios laborales.">
+  <h3>166. ¿Qué incluye el derecho a la intimidad y dignidad del trabajador?</h3>
+  <ul>
+    <li class="correct">Evitar intromisiones en su vida personal y respeto en el ámbito laboral.</li>
+    <li class="">La libertad para faltar al trabajo sin motivo.</li>
+    <li class="">Elegir los horarios laborales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué impacto tiene el networking en el desarrollo profesional? Permite compartir recursos y obtener oportunidades laborales. Es irrelevante en sectores altamente especializados. Reduce la necesidad de experiencia laboral.">
+  <h3>167. ¿Qué impacto tiene el networking en el desarrollo profesional?</h3>
+  <ul>
+    <li class="correct">Permite compartir recursos y obtener oportunidades laborales.</li>
+    <li class="">Es irrelevante en sectores altamente especializados.</li>
+    <li class="">Reduce la necesidad de experiencia laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué aspecto se considera esencial en un plan de desarrollo profesional a largo plazo? Incluir metas generales sin detalle. Establecer objetivos específicos, medibles y vinculados a las tendencias del mercado. Basarse exclusivamente en las habilidades actuales.">
+  <h3>168. ¿Qué aspecto se considera esencial en un plan de desarrollo profesional a largo plazo?</h3>
+  <ul>
+    <li class="">Incluir metas generales sin detalle.</li>
+    <li class="correct">Establecer objetivos específicos, medibles y vinculados a las tendencias del mercado.</li>
+    <li class="">Basarse exclusivamente en las habilidades actuales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se debe evitar al estructurar un currículum profesional? Incluir datos relevantes para el puesto. Añadir información irrelevante o excesiva. Adaptarlo a cada oferta de trabajo.">
+  <h3>169. ¿Qué se debe evitar al estructurar un currículum profesional?</h3>
+  <ul>
+    <li class="">Incluir datos relevantes para el puesto.</li>
+    <li class="correct">Añadir información irrelevante o excesiva.</li>
+    <li class="">Adaptarlo a cada oferta de trabajo.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué incluye el apartado de competencias en un currículum? Una descripción de los puestos ocupados anteriormente. Habilidades técnicas y blandas del candidato. Referencias personales de trabajos previos.">
+  <h3>170. ¿Qué incluye el apartado de competencias en un currículum?</h3>
+  <ul>
+    <li class="">Una descripción de los puestos ocupados anteriormente.</li>
+    <li class="correct">Habilidades técnicas y blandas del candidato.</li>
+    <li class="">Referencias personales de trabajos previos.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es el programa Erasmus+? Una iniciativa para fomentar la movilidad académica y profesional en Europa. Un programa de formación online para desempleados. Una herramienta para evaluar intereses laborales.">
+  <h3>171. ¿Qué es el programa Erasmus+?</h3>
+  <ul>
+    <li class="correct">Una iniciativa para fomentar la movilidad académica y profesional en Europa.</li>
+    <li class="">Un programa de formación online para desempleados.</li>
+    <li class="">Una herramienta para evaluar intereses laborales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué cualidad laboral se asocia con la capacidad de enfrentar adversidades? Adaptabilidad. Resiliencia. Proactividad.">
+  <h3>172. ¿Qué cualidad laboral se asocia con la capacidad de enfrentar adversidades?</h3>
+  <ul>
+    <li class="">Adaptabilidad.</li>
+    <li class="correct">Resiliencia.</li>
+    <li class="">Proactividad.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué se debe evitar al responder 'preguntas' sobre debilidades en una entrevista de trabajo? Reconocer áreas de mejora de forma honesta. Responder con ejemplos de mejora continua. Proporcionar debilidades irrelevantes o excusas.">
+  <h3>173. ¿Qué se debe evitar al responder 'preguntas' sobre debilidades en una entrevista de trabajo?</h3>
+  <ul>
+    <li class="">Reconocer áreas de mejora de forma honesta.</li>
+    <li class="">Responder con ejemplos de mejora continua.</li>
+    <li class="correct">Proporcionar debilidades irrelevantes o excusas.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es la resiliencia en el entorno profesional? La capacidad de ignorar los problemas. Adaptarse y superar situaciones adversas en el trabajo. Rechazar los cambios en el ambiente laboral.">
+  <h3>174. ¿Qué es la resiliencia en el entorno profesional?</h3>
+  <ul>
+    <li class="">La capacidad de ignorar los problemas.</li>
+    <li class="correct">Adaptarse y superar situaciones adversas en el trabajo.</li>
+    <li class="">Rechazar los cambios en el ambiente laboral.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué es el aprendizaje permanente? La posibilidad de aprender en cualquier momento y lugar gracias a la tecnología. Un método exclusivo para entornos académicos formales. Una estrategia que evita el uso de herramientas digitales.">
+  <h3>175. ¿Qué es el aprendizaje permanente?</h3>
+  <ul>
+    <li class="correct">La posibilidad de aprender en cualquier momento y lugar gracias a la tecnología.</li>
+    <li class="">Un método exclusivo para entornos académicos formales.</li>
+    <li class="">Una estrategia que evita el uso de herramientas digitales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Cuál es una ventaja del aprendizaje permanente? Reducir la carga de trabajo. Mantenerse competitivo y adaptarse a los cambios laborales. Evitar el uso de nuevas tecnologías.">
+  <h3>176. ¿Cuál es una ventaja del aprendizaje permanente?</h3>
+  <ul>
+    <li class="">Reducir la carga de trabajo.</li>
+    <li class="correct">Mantenerse competitivo y adaptarse a los cambios laborales.</li>
+    <li class="">Evitar el uso de nuevas tecnologías.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué recurso es clave en un entorno personal de aprendizaje? Herramientas para organizar información. Solo fuentes impresas. Exclusivamente redes sociales.">
+  <h3>177. ¿Qué recurso es clave en un entorno personal de aprendizaje?</h3>
+  <ul>
+    <li class="correct">Herramientas para organizar información.</li>
+    <li class="">Solo fuentes impresas.</li>
+    <li class="">Exclusivamente redes sociales.</li>
+  </ul>
+</div>
+
+<div class="question-item" data-text="¿Qué herramienta es útil para gestionar el tiempo de aprendizaje? Redes sociales. Aplicaciones como Google Calendar. Blogs personales.">
+  <h3>178. ¿Qué herramienta es útil para gestionar el tiempo de aprendizaje?</h3>
+  <ul>
+    <li class="">Redes sociales.</li>
+    <li class="correct">Aplicaciones como Google Calendar.</li>
+    <li class="">Blogs personales.</li>
+  </ul>
+</div>
+      
+      </div>
+    </div>
   </div>
-    <button onclick="siguiente()" style="display: inline-block;">Corregir</button>
-    <div id="resultado"></div>
-    <div class="estadisticas" id="estadisticas">✅ Aciertos: 3 | ❌ Fallos: 3 | 🎯 Porcentaje: 50% | 📋 Total: 89 preguntas</div>
-  </div>
 
-  <script>
-    let totalPreguntasTotales = 0;
-    let preguntasOriginales = [];
-    let preguntas = [];
-    let falladas = [];
-    let index = 0;
-    let repeticionesFallos = {};
-    let aciertos = 0;
-    let totalRespondidas = 0;
-
-    function normalizar(texto) {
-      return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
-    }
-
-    function mezclar(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-    }
-
-    function actualizarEstadisticas() {
-  const porcentaje = totalRespondidas > 0 ? Math.round((aciertos / totalRespondidas) * 100) : 0;
-  document.getElementById("estadisticas").innerText =
-    `✅ Aciertos: ${aciertos} | ❌ Fallos: ${totalRespondidas - aciertos} | 🎯 Porcentaje: ${porcentaje}% | 📋 Total: ${totalPreguntasTotales} preguntas`;
-}
-
-    function guardarProgreso() {
-      const estado = {
-        preguntas,
-        falladas,
-        index,
-        repeticionesFallos,
-        aciertos,
-        totalRespondidas
-      };
-      localStorage.setItem("testSQL", JSON.stringify(estado));
-    }
-
-    function cargarProgreso() {
-      const guardado = localStorage.getItem("testSQL");
-      if (!guardado) return false;
-
-      try {
-        const estado = JSON.parse(guardado);
-        preguntas = estado.preguntas;
-        falladas = estado.falladas;
-        index = estado.index;
-        repeticionesFallos = estado.repeticionesFallos;
-        aciertos = estado.aciertos;
-        totalRespondidas = estado.totalRespondidas;
-        return true;
-      } catch {
-        return false;
-      }
-    }
-
-    function cargarPregunta() {
-      if (index >= preguntas.length) {
-        if (falladas.length > 0) {
-          preguntas = falladas.flatMap(p => Array((repeticionesFallos[p.pregunta] || 1) + 1).fill(p));
-          mezclar(preguntas);
-          falladas = [];
-          index = 0;
-          document.getElementById("resultado").innerText = "¡Repasemos las que fallaste!";
-          document.getElementById("resultado").className = "";
-        } else {
-          document.getElementById("pregunta").innerText = "🎉 ¡Test finalizado!";
-          document.getElementById("opciones").innerHTML = "";
-          document.querySelector("button").style.display = "none";
-          document.getElementById("resultado").innerText = "Buen trabajo.";
-          localStorage.removeItem("testSQL");
-          actualizarEstadisticas();
-          return;
-        }
-      }
-
-      const p = preguntas[index];
-      document.getElementById("pregunta").innerText = p.pregunta;
-
-      const opcionesMezcladas = [...p.opciones];
-      mezclar(opcionesMezcladas); // 🌀 Mezcla el orden de las opciones
-
-      document.getElementById("opciones").innerHTML = opcionesMezcladas.map(opcion => `
-    <label class="option">
-      <input type="radio" name="opcion" value="${opcion}"/> ${opcion}
-    </label>
-  `).join('');
-
-      document.querySelector("button").style.display = "inline-block";
-      document.getElementById("resultado").innerText = "";
-      const btn = document.querySelector("button");
-      btn.style.display = "inline-block";
-      btn.innerText = "Corregir";
-      btn.disabled = false;
-      estadoBoton = "corregir";
-    }
+  <script src="js.js"></script>
 
 
-    let estadoBoton = "corregir"; // "corregir" o "siguiente"
+</body>
 
-    function siguiente() {
-      const btn = document.querySelector("button");
-
-      if (estadoBoton === "corregir") {
-        const seleccionada = document.querySelector('input[name="opcion"]:checked');
-        if (!seleccionada) {
-          alert("Selecciona una opción.");
-          return;
-        }
-
-        const respuesta = seleccionada.value;
-        const correcta = preguntas[index].respuesta;
-        const normalizadaCorrecta = normalizar(correcta);
-        const normalizadaRespuesta = normalizar(respuesta);
-
-        totalRespondidas++;
-
-        if (normalizadaCorrecta === normalizadaRespuesta) {
-          aciertos++;
-          document.getElementById("resultado").innerText = "✅ Correcto";
-          document.getElementById("resultado").className = "correcto";
-        } else {
-          document.getElementById("resultado").innerText = `❌ Incorrecto. Era: ${correcta}`;
-          document.getElementById("resultado").className = "incorrecto";
-          if (!falladas.some(p => p.pregunta === preguntas[index].pregunta)) {
-            falladas.push(preguntas[index]);
-            repeticionesFallos[preguntas[index].pregunta] = 1;
-          } else {
-            repeticionesFallos[preguntas[index].pregunta]++;
-          }
-        }
-
-        actualizarEstadisticas();
-        guardarProgreso();
-
-        btn.innerText = "Siguiente";
-        estadoBoton = "siguiente";
-
-        // Desactiva inputs para evitar cambiar de opción tras corregir
-        document.querySelectorAll('input[name="opcion"]').forEach(input => input.disabled = true);
-
-      } else if (estadoBoton === "siguiente") {
-        index++;
-        cargarPregunta();
-      }
-    }
-
-   async function iniciarTest() {
-  try {
-    const res = await fetch("preguntas.json");
-    preguntasOriginales = await res.json();
-    totalPreguntasTotales = preguntasOriginales.length;
-
-    const guardado = localStorage.getItem("testSQL");
-    if (guardado) {
-      const estado = JSON.parse(guardado);
-
-      // Cargamos progreso anterior
-      preguntas = estado.preguntas;
-      falladas = estado.falladas;
-      index = estado.index;
-      repeticionesFallos = estado.repeticionesFallos;
-      aciertos = estado.aciertos;
-      totalRespondidas = estado.totalRespondidas;
-
-      // Añadir nuevas preguntas si hay más en el JSON
-      const todasGuardadas = [...preguntas, ...falladas].map(p => p.pregunta);
-      const nuevas = preguntasOriginales.filter(p => !todasGuardadas.includes(p.pregunta));
-
-      if (nuevas.length > 0) {
-        preguntas = preguntas.concat(nuevas);
-        mezclar(preguntas); // Opcional: vuelve a mezclar para no poner nuevas al final
-      }
-
-    } else {
-      preguntas = [...preguntasOriginales];
-      mezclar(preguntas);
-    }
-
-    cargarPregunta();
-    actualizarEstadisticas();
-  } catch (error) {
-    document.getElementById("pregunta").innerText = "Error al cargar preguntas.json";
-    console.error(error);
-  }
-}
-    iniciarTest();
-  </script>
-
-
-</body></html>
+</html>
