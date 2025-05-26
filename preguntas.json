@@ -1,0 +1,1588 @@
+[
+  {
+    "pregunta": "¿Qué elemento es obligatorio en un contrato formativo para la obtención de la práctica profesional?",
+    "respuesta": "Contar con una titulación académica obtenida recientemente.",
+    "opciones": [
+      "Desempeñar el trabajo sin relación con la titulación previa.",
+      "Contar con una titulación académica obtenida recientemente.",
+      "Incluir horas extraordinarias en la jornada laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica la cláusula de confidencialidad en un contrato laboral?",
+    "respuesta": "Restringir la divulgación de información empresarial a terceros.",
+    "opciones": [
+      "Restringir la divulgación de información empresarial a terceros.",
+      "Mantener el salario en secreto entre compañeros.",
+      "Evitar compartir detalles personales del empleador."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ocurre si un contrato temporal por circunstancias de producción supera los 18 meses en 24 meses?",
+    "respuesta": "Se transforma automáticamente en un contrato indefinido.",
+    "opciones": [
+      "Debe renovarse con autorización especial.",
+      "Se transforma automáticamente en un contrato indefinido.",
+      "El empleador está obligado a pagar una indemnización adicional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un contrato indefinido?",
+    "respuesta": "Carece de fecha de finalización establecida.",
+    "opciones": [
+      "Tiene una duración limitada.",
+      "Carece de fecha de finalización establecida.",
+      "Solo se utiliza para trabajos temporales."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el objetivo principal del derecho del trabajo?",
+    "respuesta": "Garantizar la justicia social y el equilibrio en el ámbito laboral.",
+    "opciones": [
+      "Garantizar la justicia social y el equilibrio en el ámbito laboral.",
+      "Aumentar la productividad de las empresas.",
+      "Controlar las vacaciones de los empleados."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite el derecho a la huelga?",
+    "respuesta": "Suspender colectivamente las actividades laborales para defender intereses.",
+    "opciones": [
+      "Exigir aumentos salariales sin trabajar.",
+      "Suspender colectivamente las actividades laborales para defender intereses.",
+      "Reunirse con amigos durante el horario laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué norma regula la jornada laboral, descansos y vacaciones en España?",
+    "respuesta": "El Estatuto de los Trabajadores.",
+    "opciones": [
+      "La Ley General de la Seguridad Social.",
+      "El Estatuto de los Trabajadores.",
+      "El Código Penal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué regula la Ley General de la Seguridad Social?",
+    "respuesta": "Las prestaciones y cotizaciones para garantizar la protección social.",
+    "opciones": [
+      "La duración de las vacaciones anuales.",
+      "Las prestaciones y cotizaciones para garantizar la protección social.",
+      "Las condiciones para firmar contratos temporales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué aspecto analiza un convenio colectivo aplicable por sectores?",
+    "respuesta": "Condiciones específicas laborales y salariales en un sector económico.",
+    "opciones": [
+      "Condiciones específicas laborales y salariales en un sector económico.",
+      "Horarios generales de las empresas.",
+      "Normas laborales internacionales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué procedimiento es obligatorio antes de una reclamación judicial laboral?",
+    "respuesta": "Conciliación previa en el SMAC.",
+    "opciones": [
+      "Negociación directa con el empresario.",
+      "Conciliación previa en el SMAC.",
+      "Consultar al Tribunal Supremo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe contener un contrato laboral para garantizar su validez?",
+    "respuesta": "La descripción del puesto, horario y remuneración.",
+    "opciones": [
+      "Los días de vacaciones del trabajador.",
+      "La descripción del puesto, horario y remuneración.",
+      "La afiliación sindical del empleado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué duración máxima tiene un contrato de formación en alternancia?",
+    "respuesta": "Dos años.",
+    "opciones": [ "Dos años.", "Un año.", "Seis meses." ]
+  },
+  {
+    "pregunta": "¿Qué documento regula las condiciones laborales específicas de un sector?",
+    "respuesta": "Convenio colectivo.",
+    "opciones": [
+      "Estatuto de los Trabajadores.",
+      "Convenio colectivo.",
+      "Ley de Prevención de Riesgos Laborales."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo puede un profesional mejorar sus oportunidades en un mercado laboral saturado?",
+    "respuesta": "Especializándose en un nicho específico y fortaleciendo su red de contactos.",
+    "opciones": [
+      "Especializándose en un nicho específico y fortaleciendo su red de contactos.",
+      "Cambiando constantemente de sector laboral.",
+      "Optando exclusivamente por trabajos temporales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe hacerse para que el desarrollo profesional sea sostenible a largo plazo?",
+    "respuesta": "Incluir formación continua y evaluar regularmente los progresos.",
+    "opciones": [
+      "Fijar metas estáticas.",
+      "Incluir formación continua y evaluar regularmente los progresos.",
+      "Centrarse solo en los logros pasados."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia es más efectiva para destacar en una entrevista grupal?",
+    "respuesta": "Participar activamente con intervenciones relevantes y respetar los turnos de palabra.",
+    "opciones": [
+      "Hablar continuamente para demostrar interés.",
+      "Participar activamente con intervenciones relevantes y respetar los turnos de palabra.",
+      "Evitar la interacción para no destacar demasiado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué factor evalúa el análisis DAFO en la categoría de 'amenazas'?",
+    "respuesta": "Factores externos que dificultan el progreso profesional.",
+    "opciones": [
+      "Debilidades internas del individuo.",
+      "Factores externos que dificultan el progreso profesional.",
+      "Fortalezas personales para destacar en el mercado laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una destreza cognitiva?",
+    "respuesta": "Resolver problemas y tomar decisiones fundamentadas.",
+    "opciones": [
+      "Resolver problemas y tomar decisiones fundamentadas.",
+      "Usar herramientas de manera precisa.",
+      "Realizar tareas repetitivas sin errores."
+    ]
+  },
+  {
+    "pregunta": "¿Qué objetivo tiene la metodología SMART en la planificación profesional?",
+    "respuesta": "Establecer metas específicas, medibles y alcanzables.",
+    "opciones": [
+      "Crear metas vagas pero flexibles.",
+      "Establecer metas específicas, medibles y alcanzables.",
+      "Evaluar intereses y habilidades generales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede mejorar el impacto de un currículum en una oferta laboral específica?",
+    "respuesta": "Adaptarlo a los requisitos del puesto solicitado.",
+    "opciones": [
+      "Adaptarlo a los requisitos del puesto solicitado.",
+      "Usar el mismo formato para todas las candidaturas.",
+      "Incluir información personal irrelevante."
+    ]
+  },
+  {
+    "pregunta": "¿Qué formato de currículum es ideal para profesionales con poca experiencia laboral?",
+    "respuesta": "Currículum funcional.",
+    "opciones": [
+      "Currículum funcional.",
+      "Currículum cronológico inverso.",
+      "Currículum mixto."
+    ]
+  },
+  {
+    "pregunta": "¿Qué técnica es clave para afrontar una entrevista de trabajo?",
+    "respuesta": "Investigar sobre la empresa y preparar respuestas basadas en competencias.",
+    "opciones": [
+      "Investigar sobre la empresa y preparar respuestas basadas en competencias.",
+      "Memorizar una lista de respuestas genéricas.",
+      "Enviar 'preguntas' al entrevistador previamente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia puede mejorar la empleabilidad en un mercado competitivo?",
+    "respuesta": "Desarrollar competencias blandas y técnicas de forma equilibrada.",
+    "opciones": [
+      "Basarse exclusivamente en habilidades técnicas.",
+      "Desarrollar competencias blandas y técnicas de forma equilibrada.",
+      "Evitar cambios de carrera profesional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica distingue a una persona con buena gestión emocional en el trabajo?",
+    "respuesta": "Manejar sus emociones de forma equilibrada y profesional.",
+    "opciones": [
+      "Responder impulsivamente a situaciones adversas.",
+      "Manejar sus emociones de forma equilibrada y profesional.",
+      "Evitar conflictos sin resolverlos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta se utiliza para explorar intereses y valores profesionales?",
+    "respuesta": "Las pruebas de orientación vocacional.",
+    "opciones": [
+      "El análisis DAFO.",
+      "Las pruebas de orientación vocacional.",
+      "El currículum funcional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa la gestión del tiempo en la planificación profesional?",
+    "respuesta": "Organizar actividades según su importancia y urgencia.",
+    "opciones": [
+      "Asignar tiempo sin establecer prioridades.",
+      "Organizar actividades según su importancia y urgencia.",
+      "Reducir las pausas y descansos en la jornada laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia puede fortalecer un entorno personal de aprendizaje (EPA)?",
+    "respuesta": "Combinar herramientas tecnológicas, contactos personales y estrategias de gestión de información.",
+    "opciones": [
+      "Utilizar únicamente recursos gratuitos.",
+      "Combinar herramientas tecnológicas, contactos personales y estrategias de gestión de información.",
+      "Basarse exclusivamente en la experiencia laboral previa."
+    ]
+  },
+  {
+    "pregunta": "¿Qué habilidad es clave para gestionar información en un mundo digitalizado?",
+    "respuesta": "Filtrar, clasificar y priorizar información relevante para objetivos específicos.",
+    "opciones": [
+      "Ignorar el exceso de datos.",
+      "Filtrar, clasificar y priorizar información relevante para objetivos específicos.",
+      "Depender exclusivamente de motores de búsqueda."
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede dificultar la implementación de un EPA efectivo?",
+    "respuesta": "Falta de habilidades tecnológicas o autogestión del aprendizaje.",
+    "opciones": [
+      "La flexibilidad.",
+      "Falta de habilidades tecnológicas o autogestión del aprendizaje.",
+      "Participación en redes de aprendizaje."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica el aprendizaje permanente?",
+    "respuesta": "Adquirir conocimientos y habilidades de forma continua a lo largo de la vida.",
+    "opciones": [
+      "Detener el aprendizaje al finalizar los estudios.",
+      "Adquirir conocimientos y habilidades de forma continua a lo largo de la vida.",
+      "Aprender solo en entornos académicos formales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué caracteriza a una identidad digital coherente?",
+    "respuesta": "Mantener consistencia en los mensajes y comportamientos online.",
+    "opciones": [
+      "Presentar información contradictoria en diferentes plataformas.",
+      "Mantener consistencia en los mensajes y comportamientos online.",
+      "Compartir todo tipo de contenido en redes sociales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una herramienta de gestión de contraseñas?",
+    "respuesta": "Una aplicación que almacena contraseñas seguras y únicas.",
+    "opciones": [
+      "Una base de datos de usuarios en línea.",
+      "Una aplicación que almacena contraseñas seguras y únicas.",
+      "Un tipo de red social profesional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica la alfabetización digital en el aprendizaje permanente?",
+    "respuesta": "Usar herramientas digitales de manera eficiente para buscar, gestionar y crear información.",
+    "opciones": [
+      "Conocer únicamente conceptos básicos de informática.",
+      "Usar herramientas digitales de manera eficiente para buscar, gestionar y crear información.",
+      "Evitar el uso de tecnologías avanzadas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa una oportunidad en el aprendizaje permanente?",
+    "respuesta": "Nuevas tecnologías y recursos disponibles para mejorar habilidades.",
+    "opciones": [
+      "Nuevas tecnologías y recursos disponibles para mejorar habilidades.",
+      "Dificultades externas que complican el acceso a la formación.",
+      "Factores internos que limitan el progreso educativo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué habilidad facilita la gestión de múltiples fuentes de información?",
+    "respuesta": "Pensamiento crítico para evaluar la fiabilidad de las fuentes.",
+    "opciones": [
+      "Memorización.",
+      "Pensamiento crítico para evaluar la fiabilidad de las fuentes.",
+      "Evitar la búsqueda de información en exceso."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe considerar al seleccionar fuentes de información en un EPA?",
+    "respuesta": "Que sean confiables, actualizadas y relevantes para los objetivos de aprendizaje.",
+    "opciones": [
+      "Que sean populares en redes sociales.",
+      "Que sean confiables, actualizadas y relevantes para los objetivos de aprendizaje.",
+      "Que sean gratuitas sin importar su origen."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica tiene un buen objetivo de aprendizaje?",
+    "respuesta": "Estar alineado con metas personales y profesionales.",
+    "opciones": [
+      "Ser ambiguo para permitir flexibilidad.",
+      "Estar alineado con metas personales y profesionales.",
+      "Ser completamente dependiente de las tendencias del mercado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa una amenaza a la ciberseguridad?",
+    "respuesta": "Correos electrónicos fraudulentos que solicitan datos personales.",
+    "opciones": [
+      "Actualizaciones regulares de software.",
+      "Correos electrónicos fraudulentos que solicitan datos personales.",
+      "Uso de herramientas de encriptación."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta ayuda a recopilar y organizar información en un EPA?",
+    "respuesta": "Aplicaciones como Evernote o Notion.",
+    "opciones": [
+      "Aplicaciones como Evernote o Notion.",
+      "Redes sociales generales.",
+      "Foros de entretenimiento."
+    ]
+  },
+  {
+    "pregunta": "¿Qué caracteriza a una red personal de aprendizaje                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               PLN?",
+    "respuesta": "Se compone de personas con las que se comparte conocimiento y experiencias.",
+    "opciones": [
+      "Se conforma por debilidades, amenazas, fortalezas y oportunidades.",
+      "Se compone de personas con las que se comparte conocimiento y experiencias.",
+      "Excluye las redes sociales profesionales, los foros y las comunidades virtuales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué establece el derecho a la desconexión digital respecto a los dispositivos electrónicos?",
+    "respuesta": "Los empleadores no pueden exigir su uso fuera del horario laboral.",
+    "opciones": [
+      "Los empleadores no pueden exigir su uso fuera del horario laboral.",
+      "El trabajador debe mantenerlos encendidos siempre.",
+      "Solo aplica en contratos temporales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué diferencia al contrato de formación en alternancia del contrato formativo para la obtención de la práctica profesional?",
+    "respuesta": "La necesidad de contar con una titulación previa en el segundo caso.",
+    "opciones": [
+      "La edad máxima del trabajador.",
+      "La necesidad de contar con una titulación previa en el segundo caso.",
+      "La posibilidad de realizar horas extraordinarias."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de medida debe prevalecer en la prevención de riesgos laborales?",
+    "respuesta": "Medidas de protección colectiva.",
+    "opciones": [
+      "Medidas de protección individual.",
+      "Medidas de protección colectiva.",
+      "Capacitación exclusiva para supervisores."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de contrato combina trabajo y formación?",
+    "respuesta": "Contrato de formación en alternancia.",
+    "opciones": [
+      "Contrato indefinido.",
+      "Contrato de formación en alternancia.",
+      "Contrato temporal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué regula el derecho del trabajo?",
+    "respuesta": "Las relaciones laborales y los derechos y deberes de empresarios y trabajadores.",
+    "opciones": [
+      "Las relaciones laborales y los derechos y deberes de empresarios y trabajadores.",
+      "Las relaciones personales entre empleados.",
+      "La productividad empresarial."
+    ]
+  },
+  {
+    "pregunta": "¿Qué regula la Ley de Prevención de Riesgos Laborales?",
+    "respuesta": "La seguridad y salud en el trabajo.",
+    "opciones": [
+      "La formación académica de los empleados.",
+      "La seguridad y salud en el trabajo.",
+      "Los descansos durante la jornada laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de contrato tiene como finalidad el desarrollo de competencias vinculadas a una titulación?",
+    "respuesta": "Contrato formativo para la obtención de la práctica profesional.",
+    "opciones": [
+      "Contrato indefinido.",
+      "Contrato formativo para la obtención de la práctica profesional.",
+      "Contrato temporal de interinidad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué procedimiento garantiza una solución extrajudicial en los conflictos laborales?",
+    "respuesta": "Conciliación previa en el SMAC.",
+    "opciones": [
+      "Conciliación previa en el SMAC.",
+      "Recurso de suplicación en los Tribunales Superiores de Justicia.",
+      "Consulta con el sindicato correspondiente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica la duración máxima de un contrato temporal por circunstancias de producción?",
+    "respuesta": "Seis meses en un período de un año.",
+    "opciones": [
+      "Seis meses en un período de un año.",
+      "Un año completo sin renovaciones.",
+      "Dos años consecutivos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué indica el carácter dinámico del derecho del trabajo?",
+    "respuesta": "Su capacidad para adaptarse a los cambios sociales y económicos.",
+    "opciones": [
+      "Su capacidad para adaptarse a los cambios sociales y económicos.",
+      "La flexibilidad de los trabajadores para cambiar de empleo.",
+      "La estabilidad de los contratos laborales indefinidos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe garantizar al finalizar un contrato temporal?",
+    "respuesta": "El pago de la indemnización correspondiente.",
+    "opciones": [
+      "Un nuevo contrato en otra empresa.",
+      "El pago de la indemnización correspondiente.",
+      "Un aumento salarial antes de la finalización."
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe incluirse en un contrato temporal para ser válido?",
+    "respuesta": "La justificación de la temporalidad y duración del contrato.",
+    "opciones": [
+      "Una descripción general del trabajo.",
+      "La justificación de la temporalidad y duración del contrato.",
+      "Una cláusula de confidencialidad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué garantiza un contrato indefinido frente a un contrato temporal?",
+    "respuesta": "Mayor estabilidad laboral.",
+    "opciones": [
+      "Mayor estabilidad laboral.",
+      "Más flexibilidad de horarios.",
+      "Exención de cotización a la seguridad social."
+    ]
+  },
+  {
+    "pregunta": "¿Qué rol juega el feedback en la mejora profesional?",
+    "respuesta": "Identificar áreas de mejora y reforzar logros alcanzados.",
+    "opciones": [
+      "Generar conflictos entre compañeros.",
+      "Identificar áreas de mejora y reforzar logros alcanzados.",
+      "Aumentar la carga de trabajo sin motivo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué método es más eficaz para evaluar fortalezas personales en el ámbito laboral?",
+    "respuesta": "Utilizar herramientas como análisis DAFO y retroalimentación externa.",
+    "opciones": [
+      "Autocrítica sin parámetros claros.",
+      "Utilizar herramientas como análisis DAFO y retroalimentación externa.",
+      "Evitar la opinión de terceros."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta puede ser útil para identificar valores personales en el ámbito laboral?",
+    "respuesta": "Pruebas psicométricas específicas y orientación profesional.",
+    "opciones": [
+      "Pruebas psicométricas específicas y orientación profesional.",
+      "Revisar exclusivamente la experiencia laboral previa.",
+      "Ignorar los valores y centrarse en las habilidades técnicas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica define una habilidad técnica?",
+    "respuesta": "Un conocimiento específico aprendido en un área concreta.",
+    "opciones": [
+      "Una capacidad innata en el ámbito personal.",
+      "Un conocimiento específico aprendido en un área concreta.",
+      "Una capacidad de comunicación y liderazgo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa trabajar en equipo en el entorno laboral?",
+    "respuesta": "Colaborar con compañeros para lograr metas comunes.",
+    "opciones": [
+      "Competir con otros empleados por objetivos.",
+      "Colaborar con compañeros para lograr metas comunes.",
+      "Delegar todas las responsabilidades en un líder."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite la evaluación de intereses y preferencias laborales?",
+    "respuesta": "Identificar áreas laborales afines a las metas personales.",
+    "opciones": [
+      "Seleccionar trabajos al azar.",
+      "Identificar áreas laborales afines a las metas personales.",
+      "Evitar las renuncias en cualquier circunstancia."
+    ]
+  },
+  {
+    "pregunta": "¿Qué importancia tiene la adaptabilidad en el entorno laboral actual?",
+    "respuesta": "Ajustarse a nuevas condiciones y aprender rápidamente.",
+    "opciones": [
+      "Mantenerse rígido ante los cambios organizacionales.",
+      "Ajustarse a nuevas condiciones y aprender rápidamente.",
+      "Evitar trabajos que requieran habilidades diversas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una competencia blanda?",
+    "respuesta": "Capacidad personal para comunicarse y trabajar en equipo.",
+    "opciones": [
+      "Habilidad técnica específica de un sector.",
+      "Capacidad personal para comunicarse y trabajar en equipo.",
+      "Conocimiento especializado en un área concreta."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia es útil para superar debilidades identificadas en un análisis DAFO?",
+    "respuesta": "Diseñar un plan de mejora continua enfocado en esas áreas.",
+    "opciones": [
+      "Ignorarlas para centrarse en las fortalezas.",
+      "Diseñar un plan de mejora continua enfocado en esas áreas.",
+      "Cambiar de sector profesional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una competencia transversal?",
+    "respuesta": "Una capacidad aplicable en diversos ámbitos laborales.",
+    "opciones": [
+      "Una habilidad técnica específica de un puesto.",
+      "Una capacidad aplicable en diversos ámbitos laborales.",
+      "Un conocimiento básico sobre una industria."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel juega la formación continua en el desarrollo profesional?",
+    "respuesta": "Actualizar conocimientos y adaptarse a las demandas del mercado laboral.",
+    "opciones": [
+      "Mantener las competencias obsoletas.",
+      "Actualizar conocimientos y adaptarse a las demandas del mercado laboral.",
+      "Sustituir la experiencia laboral previa."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene un currículum funcional frente a uno cronológico?",
+    "respuesta": "Resaltar habilidades y competencias relevantes para el puesto.",
+    "opciones": [
+      "Ocultar la experiencia laboral.",
+      "Resaltar habilidades y competencias relevantes para el puesto.",
+      "Priorizar fechas y orden de empleos anteriores."
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede dificultar la consecución de objetivos a largo plazo?",
+    "respuesta": "Definir metas poco específicas o irreales.",
+    "opciones": [
+      "Falta de recursos externos.",
+      "Definir metas poco específicas o irreales.",
+      "Evaluar las fortalezas personales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera un uso ético de las redes sociales en el aprendizaje?",
+    "respuesta": "Contribuir con contenido relevante y respetar los derechos de autor.",
+    "opciones": [
+      "Compartir información sin verificar su autenticidad.",
+      "Contribuir con contenido relevante y respetar los derechos de autor.",
+      "Publicar cualquier contenido que genere interacciones."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica el aprendizaje basado en proyectos?",
+    "respuesta": "Aprender resolviendo problemas reales y desarrollando soluciones prácticas.",
+    "opciones": [
+      "Resolver tareas individuales sin aplicabilidad práctica.",
+      "Aprender resolviendo problemas reales y desarrollando soluciones prácticas.",
+      "Seguir únicamente guías teóricas sin trabajo práctico."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo contribuyen las herramientas de análisis de datos en el aprendizaje?",
+    "respuesta": "Ayudan a identificar patrones y áreas de mejora en el progreso educativo.",
+    "opciones": [
+      "Proveen estadísticas irrelevantes para el aprendizaje.",
+      "Ayudan a identificar patrones y áreas de mejora en el progreso educativo.",
+      "Sustituyen la necesidad de un mentor o tutor."
+    ]
+  },
+  {
+    "pregunta": "¿Qué caracteriza a un objetivo de aprendizaje SMART?",
+    "respuesta": "Ser específico, alcanzable y medible.",
+    "opciones": [
+      "Ser general y poco medible.",
+      "Ser específico, alcanzable y medible.",
+      "Fijarse sin límite de tiempo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite una red personal de aprendizaje (PLN)?",
+    "respuesta": "Colaborar y compartir conocimientos con otras personas.",
+    "opciones": [
+      "Aislar el aprendizaje individual.",
+      "Colaborar y compartir conocimientos con otras personas.",
+      "Rechazar la tecnología en el aprendizaje."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera una fuente de información confiable?",
+    "respuesta": "Artículos académicos de instituciones reconocidas.",
+    "opciones": [
+      "Blogs sin autoría clara.",
+      "Artículos académicos de instituciones reconocidas.",
+      "Comentarios en redes sociales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué contribuye al desarrollo de una buena reputación online?",
+    "respuesta": "Participar activamente en comunidades profesionales.",
+    "opciones": [
+      "Participar activamente en comunidades profesionales.",
+      "Publicar contenido sin verificar su impacto.",
+      "Evitar interactuar con otros usuarios."
+    ]
+  },
+  {
+    "pregunta": "¿Qué diferencia a un PLN de otras redes?",
+    "respuesta": "Su objetivo principal de compartir conocimiento y experiencias para aprender.",
+    "opciones": [
+      "Su enfoque en la interacción personal.",
+      "Su objetivo principal de compartir conocimiento y experiencias para aprender.",
+      "Su exclusividad para usuarios avanzados."
+    ]
+  },
+  {
+    "pregunta": "¿Qué rol juega la autorregulación en el aprendizaje?",
+    "respuesta": "Fomenta la planificación, supervisión y evaluación del propio progreso.",
+    "opciones": [
+      "Permite depender únicamente de un tutor.",
+      "Fomenta la planificación, supervisión y evaluación del propio progreso.",
+      "Elimina la necesidad de establecer metas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un EPA (Entorno personal de aprendizaje)?",
+    "respuesta": "Un conjunto de herramientas recursos y estrategias para gestionar y mejorar su proceso de aprendizaje de manera autónoma y continua.",
+    "opciones": [
+      "Un espacio digital para mejorar estructuras administrativas en la educación.",
+      "Un conjunto de herramientas recursos y estrategias para gestionar y mejorar su proceso de aprendizaje de manera autónoma y continua.",
+      "Una página web que nos permite seleccionar formación a medida para nuestro desarrollo personal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué acción protege la privacidad en redes sociales?",
+    "respuesta": "Configurar correctamente las 'opciones' de privacidad y evitar publicar datos sensibles.",
+    "opciones": [
+      "Compartir información sin restricciones.",
+      "Configurar correctamente las 'opciones' de privacidad y evitar publicar datos sensibles.",
+      "Aceptar todas las solicitudes de amistad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una herramienta de creación de contenido?",
+    "respuesta": "Una aplicación para recopilar, organizar y compartir información relevante.",
+    "opciones": [
+      "Un medio para generar contenido nuevo.",
+      "Una aplicación para recopilar, organizar y compartir información relevante.",
+      "Un software para eliminar información no deseada."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene el uso de plataformas como LinkedIn?",
+    "respuesta": "Facilitar la interacción profesional y la creación de redes laborales.",
+    "opciones": [
+      "Facilitar la interacción profesional y la creación de redes laborales.",
+      "Sustituir el currículum físico.",
+      "Garantizar ofertas de empleo automáticamente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia ayuda a evitar distracciones al estudiar online?",
+    "respuesta": "Crear un espacio de estudio libre de interrupciones y utilizar técnicas como el método Pomodoro.",
+    "opciones": [
+      "Usar múltiples dispositivos a la vez.",
+      "Crear un espacio de estudio libre de interrupciones y utilizar técnicas como el método Pomodoro.",
+      "Cambiar constantemente entre tareas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué órgano judicial tiene la competencia para resolver recursos de casación en el ámbito laboral?",
+    "respuesta": "El Tribunal Supremo.",
+    "opciones": [
+      "Los Juzgados de lo Social.",
+      "El Tribunal Supremo.",
+      "La Audiencia Nacional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué ocurre si un empresario realiza una modificación sustancial en las condiciones laborales sin justificación legal?",
+    "respuesta": "El trabajador puede impugnar la decisión y solicitar indemnización.",
+    "opciones": [
+      "El trabajador puede impugnar la decisión y solicitar indemnización.",
+      "El contrato se considera nulo automáticamente.",
+      "El trabajador pierde el derecho a negociar."
+    ]
+  },
+  {
+    "pregunta": "¿Qué objetivo tienen las medidas de conciliación de la vida laboral y familiar?",
+    "respuesta": "Equilibrar las responsabilidades laborales y familiares del trabajador.",
+    "opciones": [
+      "Aumentar la jornada laboral.",
+      "Equilibrar las responsabilidades laborales y familiares del trabajador.",
+      "Reducir los costes empresariales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué obligación tienen los empresarios en prevención de riesgos laborales?",
+    "respuesta": "Realizar evaluaciones de riesgos y formar a los trabajadores.",
+    "opciones": [
+      "Realizar evaluaciones de riesgos y formar a los trabajadores.",
+      "Organizar fiestas anuales.",
+      "Comprar material de oficina."
+    ]
+  },
+  {
+    "pregunta": "¿Qué deben incluir los contratos laborales según la normativa española?",
+    "respuesta": "Nombre del empleado, duración y condiciones de trabajo.",
+    "opciones": [
+      "Nombre del empleado, duración y condiciones de trabajo.",
+      "Planes de vacaciones de la empresa.",
+      "Las preferencias de ocio del trabajador."
+    ]
+  },
+  {
+    "pregunta": "¿Qué derecho protege a los trabajadores frente a discriminaciones?",
+    "respuesta": "Derecho a la igualdad y no discriminación.",
+    "opciones": [
+      "Derecho a la igualdad y no discriminación.",
+      "Derecho a la huelga.",
+      "Derecho a la confidencialidad."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sucede si no se formaliza un contrato temporal por escrito cuando es requerido?",
+    "respuesta": "El contrato puede considerarse indefinido.",
+    "opciones": [
+      "El trabajador pierde sus derechos laborales.",
+      "El contrato puede considerarse indefinido.",
+      "Se invalida automáticamente el contrato."
+    ]
+  },
+  {
+    "pregunta": "¿Qué derecho tienen los trabajadores según el Artículo 35 de la Constitución Española?",
+    "respuesta": "Derecho al trabajo y a una remuneración suficiente.",
+    "opciones": [
+      "Derecho al trabajo y a una remuneración suficiente.",
+      "Derecho a participar en reuniones internacionales.",
+      "Derecho a crear sus propias leyes laborales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de contrato requiere inscripción obligatoria en el SEPE en los primeros 10 días?",
+    "respuesta": "Contrato indefinido escrito.",
+    "opciones": [
+      "Contrato verbal temporal.",
+      "Contrato indefinido escrito.",
+      "Contrato de formación en alternancia."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel juegan los convenios colectivos en el marco legal laboral?",
+    "respuesta": "Adaptar las condiciones laborales generales a sectores específicos.",
+    "opciones": [
+      "Sustituir las leyes laborales nacionales.",
+      "Adaptar las condiciones laborales generales a sectores específicos.",
+      "Crear nuevos derechos laborales individuales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué regula el derecho a la seguridad y salud en el trabajo?",
+    "respuesta": "La implementación de medidas para prevenir accidentes y enfermedades.",
+    "opciones": [
+      "El cumplimiento del horario laboral.",
+      "La implementación de medidas para prevenir accidentes y enfermedades.",
+      "La remuneración económica de los trabajadores."
+    ]
+  },
+  {
+    "pregunta": "¿Qué garantiza la negociación colectiva en el ámbito laboral?",
+    "respuesta": "El diálogo entre trabajadores y empresarios para regular condiciones laborales.",
+    "opciones": [
+      "La igualdad de género en el trabajo.",
+      "El diálogo entre trabajadores y empresarios para regular condiciones laborales.",
+      "La organización de horarios en las empresas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa el carácter protector del derecho del trabajo?",
+    "respuesta": "Proteger al trabajador como la parte más débil en una relación laboral.",
+    "opciones": [
+      "Proteger los derechos del empresario.",
+      "Proteger al trabajador como la parte más débil en una relación laboral.",
+      "Evitar conflictos laborales entre empresas."
+    ]
+  },
+  {
+    "pregunta": "¿Cómo pueden las competencias blandas impactar en el éxito profesional?",
+    "respuesta": "Mejoran la colaboración, la comunicación y el liderazgo en el entorno laboral.",
+    "opciones": [
+      "Reemplazan la necesidad de habilidades técnicas.",
+      "Mejoran la colaboración, la comunicación y el liderazgo en el entorno laboral.",
+      "Se centran en conocimientos específicos de una industria."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento puede ser considerado una amenaza en un análisis DAFO?",
+    "respuesta": "Competencia laboral en el mercado objetivo.",
+    "opciones": [
+      "Competencia laboral en el mercado objetivo.",
+      "Falta de habilidades técnicas personales.",
+      "Un salario bajo en un empleo actual."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa un desafío común en la planificación de metas SMART?",
+    "respuesta": "Equilibrar su viabilidad con su impacto en la carrera profesional.",
+    "opciones": [
+      "Hacerlas demasiado específicas.",
+      "Equilibrar su viabilidad con su impacto en la carrera profesional.",
+      "Ignorar la necesidad de medir su progreso."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel juega el CV en la búsqueda de empleo?",
+    "respuesta": "Resumir la formación y experiencia profesional de un candidato.",
+    "opciones": [
+      "Facilitar el contacto directo con empresas.",
+      "Resumir la formación y experiencia profesional de un candidato.",
+      "Garantizar automáticamente una oferta de trabajo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa un análisis DAFO en la orientación profesional?",
+    "respuesta": "Un análisis de debilidades, amenazas, fortalezas y oportunidades.",
+    "opciones": [
+      "Una técnica para redactar currículums.",
+      "Una evaluación de intereses laborales.",
+      "Un análisis de debilidades, amenazas, fortalezas y oportunidades."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una motivación intrínseca?",
+    "respuesta": "La satisfacción personal al realizar una actividad.",
+    "opciones": [
+      "Un incentivo externo como el salario.",
+      "La satisfacción personal al realizar una actividad.",
+      "La búsqueda de reconocimiento social."
+    ]
+  },
+  {
+    "pregunta": "¿Qué caracteriza a una meta profesional SMART?",
+    "respuesta": "Estar bien estructurada y ser realista.",
+    "opciones": [
+      "Estar bien estructurada y ser realista.",
+      "Ser genérica y flexible.",
+      "Basarse únicamente en las necesidades del mercado."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica la proactividad en el ámbito laboral?",
+    "respuesta": "Tomar la iniciativa y anticiparse a problemas o necesidades.",
+    "opciones": [
+      "Actuar solo cuando se reciben instrucciones.",
+      "Tomar la iniciativa y anticiparse a problemas o necesidades.",
+      "Delegar todas las decisiones en un supervisor."
+    ]
+  },
+  {
+    "pregunta": "¿Qué diferencia a una meta a corto plazo de una a largo plazo?",
+    "respuesta": "Su duración temporal y objetivos inmediatos.",
+    "opciones": [
+      "Su grado de especificidad.",
+      "Su duración temporal y objetivos inmediatos.",
+      "La necesidad de recursos económicos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento se considera una fortaleza en un análisis DAFO?",
+    "respuesta": "Factores internos que benefician el desempeño profesional.",
+    "opciones": [
+      "Factores internos que benefician el desempeño profesional.",
+      "Retos externos que pueden limitar las oportunidades laborales.",
+      "Oportunidades de formación en el mercado laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa tener orientación al logro en un entorno laboral?",
+    "respuesta": "Establecer metas y trabajar con determinación para alcanzarlas.",
+    "opciones": [
+      "Buscar reconocimiento sin importar los resultados.",
+      "Establecer metas y trabajar con determinación para alcanzarlas.",
+      "Ignorar las métricas de desempeño personal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué importancia tiene una actitud positiva en la búsqueda de empleo?",
+    "respuesta": "Aumentar las probabilidades de ser considerado para un puesto.",
+    "opciones": [
+      "Aumentar las probabilidades de ser considerado para un puesto.",
+      "Garantizar una oferta de trabajo inmediata.",
+      "Reducir la necesidad de actualizar el currículum."
+    ]
+  },
+  {
+    "pregunta": "¿Qué objetivo tiene el networking profesional?",
+    "respuesta": "Crear redes de contacto para generar oportunidades laborales y de colaboración.",
+    "opciones": [
+      "Crear redes de contacto para generar oportunidades laborales y de colaboración.",
+      "Participar en actividades recreativas fuera del trabajo.",
+      "Evitar la competencia en el ámbito laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de red constituye una PLN?",
+    "respuesta": "Una red amplia que incluye contactos de diversas disciplinas y ubicaciones.",
+    "opciones": [
+      "Una red limitada a conexiones locales.",
+      "Una red amplia que incluye contactos de diversas disciplinas y ubicaciones.",
+      "Una red restringida a un solo grupo profesional."
+    ]
+  },
+  {
+    "pregunta": "¿Qué técnica fomenta el pensamiento crítico en el aprendizaje digital?",
+    "respuesta": "Analizar los datos desde múltiples perspectivas antes de tomar decisiones.",
+    "opciones": [
+      "Aceptar toda la información disponible sin cuestionamientos.",
+      "Analizar los datos desde múltiples perspectivas antes de tomar decisiones.",
+      "Evitar el uso de fuentes externas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué desafío presenta el aprendizaje en línea?",
+    "respuesta": "Autodisciplina para gestionar el tiempo y evitar distracciones.",
+    "opciones": [
+      "Acceso limitado a recursos.",
+      "Autodisciplina para gestionar el tiempo y evitar distracciones.",
+      "Falta de herramientas digitales accesibles."
+    ]
+  },
+  {
+    "pregunta": "¿Qué importancia tiene la huella digital en la identidad profesional?",
+    "respuesta": "Refleja los intereses, comportamientos y preferencias en línea.",
+    "opciones": [
+      "Es irrelevante para los empleadores.",
+      "Refleja los intereses, comportamientos y preferencias en línea.",
+      "Solo incluye el currículum en formato digital."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se entiende por un entorno personal de aprendizaje (EPA)?",
+    "respuesta": "Herramientas y recursos utilizados para gestionar el aprendizaje de manera autónoma.",
+    "opciones": [
+      "Un lugar fijo de estudio en una institución académica.",
+      "Herramientas y recursos utilizados para gestionar el aprendizaje de manera autónoma.",
+      "Una red de contactos sociales sin enfoque educativo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica define la autonomía en el aprendizaje permanente?",
+    "respuesta": "Gestionar de manera independiente el proceso de aprendizaje.",
+    "opciones": [
+      "Depender de instructores para guiar el aprendizaje.",
+      "Gestionar de manera independiente el proceso de aprendizaje.",
+      "Aprender únicamente de otras personas."
+    ]
+  },
+  {
+    "pregunta": "¿En qué se basa la evaluación 360º?",
+    "respuesta": "Es una herramienta para desarrollar habilidades interpersonales y de liderazgo.",
+    "opciones": [
+      "Es una metodología que compara las competencias actuales con las competencias requeridas para alcanzar las metas profesionales o académicas.",
+      "Se basa en identificar amenazas y oportunidades del sector empresarial.",
+      "Es una herramienta para desarrollar habilidades interpersonales y de liderazgo."
+    ]
+  },
+  {
+    "pregunta": "Las herramientas digitales que ayudan a estructura el tiempo de estudio y los recursos de manera eficiente se consideran:",
+    "respuesta": "Herramientas de organización y Un entorno físico donde se guardan materiales de estudio.",
+    "opciones": [
+      "PLN (Redes personales de aprendizaje).",
+      "Herramientas de organización y Un entorno físico donde se guardan materiales de estudio.",
+      "Herramientas de gestión de contenidos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué importancia tiene la evaluación en el aprendizaje autónomo?",
+    "respuesta": "Permite identificar avances y ajustar estrategias si es necesario.",
+    "opciones": [
+      "Permite identificar avances y ajustar estrategias si es necesario.",
+      "Solo se utiliza al final del proceso de aprendizaje.",
+      "Es irrelevante en la planificación del aprendizaje."
+    ]
+  },
+  {
+    "pregunta": "¿Qué habilidad es fundamental para participar en comunidades de aprendizaje en línea?",
+    "respuesta": "Capacidad de interactuar, colaborar y compartir conocimiento.",
+    "opciones": [
+      "Dominio de un único tema específico.",
+      "Capacidad de interactuar, colaborar y compartir conocimiento.",
+      "Evitar discusiones y mantener un perfil pasivo."
+    ]
+  },
+  {
+    "pregunta": "Las bibliotecas digitales:",
+    "respuesta": "Proporcionan acceso a artículos académicos, investigaciones y publicaciones especializadas.",
+    "opciones": [
+      "Ofrecen cursos online de diversas disciplinas impartidas por universidades y expertos conocidos.",
+      "Presentan vídeos de influencers en los que se exponen variedad de temas.",
+      "Proporcionan acceso a artículos académicos, investigaciones y publicaciones especializadas."
+    ]
+  },
+  {
+    "pregunta": "Crear un entorno personal de aprendizaje:",
+    "respuesta": "Ofrece beneficios tanto a nivel personal como profesional.",
+    "opciones": [
+      "Ofrece beneficios tanto a nivel personal como profesional.",
+      "Aumenta la competitividad de los perfiles directivos.",
+      "Aporta ventajas profesionales, pero no personales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una brecha digital?",
+    "respuesta": "La diferencia en el acceso y uso de tecnologías digitales entre grupos sociales.",
+    "opciones": [
+      "Una desconexión breve de internet.",
+      "La diferencia en el acceso y uso de tecnologías digitales entre grupos sociales.",
+      "Una actualización de software obsoleta."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel desempeñan los blogs en un EPA?",
+    "respuesta": "Son herramientas para expresar ideas y reflexionar sobre el aprendizaje.",
+    "opciones": [
+      "Son herramientas para expresar ideas y reflexionar sobre el aprendizaje.",
+      "Sustituyen completamente a las plataformas de aprendizaje profesional.",
+      "Funcionan únicamente como entretenimiento."
+    ]
+  },
+  {
+    "pregunta": "¿Qué establece el artículo 37 de la Constitución Española sobre negociación colectiva?",
+    "respuesta": "La negociación colectiva tiene fuerza vinculante para ambas partes.",
+    "opciones": [
+      "Las negociaciones son opcionales según el empleador.",
+      "La negociación colectiva tiene fuerza vinculante para ambas partes.",
+      "Los sindicatos no pueden participar en negociaciones."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera una infracción grave en materia de relaciones laborales?",
+    "respuesta": "El incumplimiento de las normas de seguridad laboral.",
+    "opciones": [
+      "El incumplimiento de las normas de seguridad laboral.",
+      "La falta de puntualidad ocasional del trabajador.",
+      "No respetar las vacaciones del empleador."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sucede si no se registra un contrato laboral escrito en el SEPE en los plazos establecidos?",
+    "respuesta": "Se considera un contrato indefinido.",
+    "opciones": [
+      "Se invalida automáticamente.",
+      "Se considera un contrato indefinido.",
+      "Se convierte en un contrato temporal."
+    ]
+  },
+  {
+    "pregunta": "¿Qué determina el salario mínimo interprofesional?",
+    "respuesta": "El Estatuto de los Trabajadores.",
+    "opciones": [
+      "La Constitución Española.",
+      "El Estatuto de los Trabajadores.",
+      "El convenio colectivo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un convenio colectivo?",
+    "respuesta": "Un acuerdo entre trabajadores y empresarios para mejorar las condiciones laborales.",
+    "opciones": [
+      "Un acuerdo entre trabajadores y empresarios para mejorar las condiciones laborales.",
+      "Un contrato de alquiler.",
+      "Una ley internacional de derechos humanos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué garantiza el derecho a la libertad sindical?",
+    "respuesta": "Elegir libremente afiliarse o no a un sindicato.",
+    "opciones": [
+      "Elegir libremente afiliarse o no a un sindicato.",
+      "Participar en reuniones familiares.",
+      "Cambiar de puesto de trabajo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué permite el derecho a la desconexión digital?",
+    "respuesta": "No ser contactado fuera del horario laboral.",
+    "opciones": [
+      "Trabajar horas extra de forma voluntaria.",
+      "No ser contactado fuera del horario laboral.",
+      "Reducir la jornada laboral diaria."
+    ]
+  },
+  {
+    "pregunta": "¿Qué sucede si un contrato temporal se extiende más allá del tiempo permitido?",
+    "respuesta": "Se convierte en un contrato indefinido.",
+    "opciones": [
+      "Finaliza automáticamente.",
+      "Se convierte en un contrato indefinido.",
+      "El trabajador pierde derechos laborales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué implica el deber de confidencialidad para un trabajador?",
+    "respuesta": "No divulgar información confidencial de la empresa.",
+    "opciones": [
+      "No divulgar información confidencial de la empresa.",
+      "Mantener en secreto su salario.",
+      "Respetar el tiempo de descanso de otros empleados."
+    ]
+  },
+  {
+    "pregunta": "¿Qué función tiene el Servicio de Mediación, Arbitraje y Conciliación (SMAC)?",
+    "respuesta": "Mediar entre trabajadores y empresarios antes de una demanda judicial.",
+    "opciones": [
+      "Organizar reuniones empresariales.",
+      "Mediar entre trabajadores y empresarios antes de una demanda judicial.",
+      "Elaborar contratos de trabajo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué objetivo tiene el derecho a la negociación colectiva según el Artículo 37 de la Constitución?",
+    "respuesta": "Garantizar un diálogo efectivo entre trabajadores y empresarios.",
+    "opciones": [
+      "Garantizar un diálogo efectivo entre trabajadores y empresarios.",
+      "Reducir la jornada laboral sin pérdida salarial.",
+      "Incrementar automáticamente los salarios."
+    ]
+  },
+  {
+    "pregunta": "¿Qué medidas deben tomar los empresarios en materia de prevención de riesgos laborales?",
+    "respuesta": "Implementar medidas de seguridad y formación continua.",
+    "opciones": [
+      "Evitar las evaluaciones de riesgos.",
+      "Implementar medidas de seguridad y formación continua.",
+      "Reemplazar los contratos temporales por indefinidos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué establece la Ley de Igualdad Efectiva entre Mujeres y Hombres?",
+    "respuesta": "Igualdad de trato y oportunidades en el ámbito laboral.",
+    "opciones": [
+      "Igualdad de trato y oportunidades en el ámbito laboral.",
+      "Limitación de contratos indefinidos.",
+      "Reducción de horarios para mujeres."
+    ]
+  },
+  {
+    "pregunta": "¿Qué riesgo puede representar la falta de adaptabilidad en un entorno laboral cambiante?",
+    "respuesta": "Reducir la capacidad de aprovechar nuevas oportunidades.",
+    "opciones": [
+      "Mejorar la seguridad laboral.",
+      "Reducir la capacidad de aprovechar nuevas oportunidades.",
+      "Incrementar las posibilidades de ascenso."
+    ]
+  },
+  {
+    "pregunta": "¿Qué puede indicar una debilidad en un análisis DAFO aplicado a un individuo?",
+    "respuesta": "Competencias limitadas o áreas que requieren mejora personal.",
+    "opciones": [
+      "Factores externos que afectan la empleabilidad.",
+      "Competencias limitadas o áreas que requieren mejora personal.",
+      "Amenazas del mercado laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué diferencia clave existe entre el currículum funcional y el mixto?",
+    "respuesta": "El mixto combina la estructura cronológica con el enfoque en competencias.",
+    "opciones": [
+      "El mixto combina la estructura cronológica con el enfoque en competencias.",
+      "El funcional se centra únicamente en las fechas de empleo.",
+      "El mixto omite completamente los datos personales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué significa el autoconocimiento en el ámbito laboral?",
+    "respuesta": "Reconocer fortalezas y debilidades propias.",
+    "opciones": [
+      "Identificar las habilidades de los demás.",
+      "Reconocer fortalezas y debilidades propias.",
+      "Analizar las oportunidades externas únicamente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se busca al establecer metas profesionales a largo plazo?",
+    "respuesta": "Diseñar una trayectoria profesional coherente.",
+    "opciones": [
+      "Completar objetivos inmediatos.",
+      "Diseñar una trayectoria profesional coherente.",
+      "Incrementar la formación académica exclusivamente."
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de intereses laborales se relacionan con la creatividad?",
+    "respuesta": "Intereses artísticos.",
+    "opciones": [
+      "Intereses técnicos.",
+      "Intereses sociales.",
+      "Intereses artísticos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué aspecto es crucial al redactar una carta de presentación?",
+    "respuesta": "Destacar logros relevantes y adaptar el contenido a la oferta laboral.",
+    "opciones": [
+      "Repetir la información del currículum sin variaciones.",
+      "Destacar logros relevantes y adaptar el contenido a la oferta laboral.",
+      "Utilizar un formato genérico para todas las empresas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es una carta de recomendación?",
+    "respuesta": "Un escrito donde un antiguo empleador avala las competencias del trabajador.",
+    "opciones": [
+      "Un documento donde el candidato describe sus habilidades.",
+      "Un escrito donde un antiguo empleador avala las competencias del trabajador.",
+      "Un informe elaborado por un orientador laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué representa una oportunidad en un análisis DAFO?",
+    "respuesta": "Factores externos positivos que pueden ser aprovechados.",
+    "opciones": [
+      "Factores internos que favorecen el desempeño.",
+      "Factores externos positivos que pueden ser aprovechados.",
+      "Retos del mercado laboral que deben superarse."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe priorizar en la planificación de una carrera profesional?",
+    "respuesta": "Identificar objetivos coherentes con intereses y capacidades.",
+    "opciones": [
+      "Elegir trabajos sin considerar habilidades y metas.",
+      "Identificar objetivos coherentes con intereses y capacidades.",
+      "Cambiar de empleo frecuentemente sin planificación."
+    ]
+  },
+  {
+    "pregunta": "¿Qué debe incluir un análisis DAFO bien realizado?",
+    "respuesta": "Un balance entre factores internos (debilidades y fortalezas) y externos (oportunidades y amenazas).",
+    "opciones": [
+      "Un listado de habilidades sin contexto.",
+      "Un balance entre factores internos (debilidades y fortalezas) y externos (oportunidades y amenazas).",
+      "Solo las amenazas del mercado laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué beneficio aporta el autoconocimiento en la búsqueda de empleo?",
+    "respuesta": "Facilita la elección de trabajos afines a habilidades y valores personales.",
+    "opciones": [
+      "Permite ocultar debilidades en las entrevistas.",
+      "Facilita la elección de trabajos afines a habilidades y valores personales.",
+      "Reduce la necesidad de formación continua."
+    ]
+  },
+  {
+    "pregunta": "¿Qué aspecto es clave en la resolución de problemas laborales?",
+    "respuesta": "Identificar las causas raíz y generar soluciones creativas.",
+    "opciones": [
+      "Identificar las causas raíz y generar soluciones creativas.",
+      "Evitar tomar decisiones inmediatas.",
+      "Delegar la responsabilidad a otros compañeros."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel juega la creatividad en un EPA?",
+    "respuesta": "Generar soluciones innovadoras para problemas de aprendizaje.",
+    "opciones": [
+      "Generar soluciones innovadoras para problemas de aprendizaje.",
+      "Limitarse a enfoques tradicionales en el estudio.",
+      "Evitar la flexibilidad en los métodos de aprendizaje."
+    ]
+  },
+  {
+    "pregunta": "¿Qué estrategia ayuda a evaluar la fiabilidad de una fuente digital?",
+    "respuesta": "Verificar su autoría, referencias y actualizaciones.",
+    "opciones": [
+      "Basarse en su diseño visual.",
+      "Verificar su autoría, referencias y actualizaciones.",
+      "Seleccionarla por su popularidad en redes sociales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué impacto tiene la marca personal digital en el desarrollo profesional?",
+    "respuesta": "Incrementa la visibilidad y credibilidad en el entorno laboral.",
+    "opciones": [
+      "Incrementa la visibilidad y credibilidad en el entorno laboral.",
+      "Restringe las oportunidades laborales al limitar las interacciones.",
+      "Sustituye la necesidad de redes de contacto."
+    ]
+  },
+  {
+    "pregunta": "¿Qué papel juegan las VPN en la seguridad digital?",
+    "respuesta": "Cifran las conexiones para proteger la privacidad en línea.",
+    "opciones": [
+      "Facilitan el acceso a datos personales de otros usuarios.",
+      "Cifran las conexiones para proteger la privacidad en línea.",
+      "Eliminar datos de dispositivos antiguos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué beneficio ofrece la creación de un EPA?",
+    "respuesta": "Mejorar el proceso educativo al adaptarlo a necesidades individuales.",
+    "opciones": [
+      "Limitar el aprendizaje a un solo tema.",
+      "Mejorar el proceso educativo al adaptarlo a necesidades individuales.",
+      "Evitar la participación en comunidades de aprendizaje."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es el phishing?",
+    "respuesta": "Un método para obtener información sensible de manera fraudulenta.",
+    "opciones": [
+      "Una técnica para proteger datos personales.",
+      "Un método para obtener información sensible de manera fraudulenta.",
+      "Un software de seguridad digital."
+    ]
+  },
+  {
+    "pregunta": "¿Qué acción refuerza una identidad digital profesional?",
+    "respuesta": "Mantener perfiles actualizados y consistentes en plataformas profesionales.",
+    "opciones": [
+      "Publicar contenido irrelevante en redes sociales.",
+      "Mantener perfiles actualizados y consistentes en plataformas profesionales.",
+      "Evitar interactuar con contactos relevantes en línea."
+    ]
+  },
+  {
+    "pregunta": "Cuando se recopilan y publican información privada de una persona en internet sin su consentimiento, con el objetivo de acosarla e intimidarla, hablamos de:",
+    "respuesta": "Doxing.",
+    "opciones": [ "Doxing.", "Suplantación de identidad.", "Phishing." ]
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje colaborativo?",
+    "respuesta": "Trabajar en equipo para lograr metas de aprendizaje compartidas.",
+    "opciones": [
+      "Estudiar de forma aislada para centrarse mejor en las tareas.",
+      "Trabajar en equipo para lograr metas de aprendizaje compartidas.",
+      "Delegar responsabilidades de aprendizaje en los demás."
+    ]
+  },
+  {
+    "pregunta": "Señala cuál de las siguientes herramientas no es una herramienta de gestión de contenido:",
+    "respuesta": "Trello.",
+    "opciones": [ "Moodle.", "Trello.", "Evernote." ]
+  },
+  {
+    "pregunta": "¿Qué diferencia clave existe entre un EPA y un PLN?",
+    "respuesta": "Un PLN se centra en las conexiones sociales para aprender.",
+    "opciones": [
+      "Un EPA incluye redes de contactos.",
+      "Un PLN se centra en las conexiones sociales para aprender.",
+      "Ambos son términos intercambiables sin diferencias reales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se considera una práctica de ciberseguridad adecuada?",
+    "respuesta": "Actualizar regularmente contraseñas y utilizar autenticación en dos pasos.",
+    "opciones": [
+      "Utilizar contraseñas genéricas y fáciles de recordar.",
+      "Actualizar regularmente contraseñas y utilizar autenticación en dos pasos.",
+      "Compartir contraseñas con personas de confianza."
+    ]
+  },
+  {
+    "pregunta": "¿Qué recurso puede presentar un trabajador si considera injusta una sentencia laboral en primera instancia?",
+    "respuesta": "Recurso de suplicación ante los Tribunales Superiores de Justicia.",
+    "opciones": [
+      "Recurso de suplicación ante los Tribunales Superiores de Justicia.",
+      "Denuncia directa en el Tribunal Supremo.",
+      "Conciliación previa en el SMAC."
+    ]
+  },
+  {
+    "pregunta": "¿Qué característica diferencia a los convenios colectivos sectoriales estatales?",
+    "respuesta": "Su alcance a todo el territorio nacional en un sector específico.",
+    "opciones": [
+      "Su aplicación a un solo centro de trabajo.",
+      "Su alcance a todo el territorio nacional en un sector específico.",
+      "Su exclusividad para trabajadores con contratos temporales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se busca garantizar con el derecho a la seguridad y salud en el trabajo?",
+    "respuesta": "Un entorno seguro y libre de riesgos para los trabajadores.",
+    "opciones": [
+      "La mejora continua de las instalaciones laborales.",
+      "Un entorno seguro y libre de riesgos para los trabajadores.",
+      "La reducción de horarios nocturnos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué documento establece los derechos fundamentales de los trabajadores en España?",
+    "respuesta": "La Constitución Española.",
+    "opciones": [
+      "El Convenio Colectivo.",
+      "La Constitución Española.",
+      "El Manual de Recursos Humanos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué derecho garantiza la desconexión digital?",
+    "respuesta": "Derecho a no ser molestado fuera del horario laboral.",
+    "opciones": [
+      "Derecho a no ser molestado fuera del horario laboral.",
+      "Derecho a recibir formación tecnológica.",
+      "Derecho a trabajar desde casa."
+    ]
+  },
+  {
+    "pregunta": "¿Qué incluye el Estatuto de los Trabajadores?",
+    "respuesta": "La regulación de las relaciones laborales entre empresas y trabajadores.",
+    "opciones": [
+      "Las leyes de tráfico.",
+      "La regulación de las relaciones laborales entre empresas y trabajadores.",
+      "Las políticas internacionales de comercio."
+    ]
+  },
+  {
+    "pregunta": "¿Qué organismo tiene la competencia para resolver conflictos laborales de ámbito nacional?",
+    "respuesta": "La Audiencia Nacional.",
+    "opciones": [
+      "El Tribunal Supremo.",
+      "La Audiencia Nacional.",
+      "Los Juzgados de lo Social."
+    ]
+  },
+  {
+    "pregunta": "¿Qué incluye el derecho a la intimidad y dignidad del trabajador?",
+    "respuesta": "Evitar intromisiones en su vida personal y respeto en el ámbito laboral.",
+    "opciones": [
+      "Evitar intromisiones en su vida personal y respeto en el ámbito laboral.",
+      "La libertad para faltar al trabajo sin motivo.",
+      "Elegir los horarios laborales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué impacto tiene el networking en el desarrollo profesional?",
+    "respuesta": "Permite compartir recursos y obtener oportunidades laborales.",
+    "opciones": [
+      "Permite compartir recursos y obtener oportunidades laborales.",
+      "Es irrelevante en sectores altamente especializados.",
+      "Reduce la necesidad de experiencia laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué aspecto se considera esencial en un plan de desarrollo profesional a largo plazo?",
+    "respuesta": "Establecer objetivos específicos, medibles y vinculados a las tendencias del mercado.",
+    "opciones": [
+      "Incluir metas generales sin detalle.",
+      "Establecer objetivos específicos, medibles y vinculados a las tendencias del mercado.",
+      "Basarse exclusivamente en las habilidades actuales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué se debe evitar al estructurar un currículum profesional?",
+    "respuesta": "Añadir información irrelevante o excesiva.",
+    "opciones": [
+      "Incluir datos relevantes para el puesto.",
+      "Añadir información irrelevante o excesiva.",
+      "Adaptarlo a cada oferta de trabajo."
+    ]
+  },
+  {
+    "pregunta": "¿Qué incluye el apartado de competencias en un currículum?",
+    "respuesta": "Habilidades técnicas y blandas del candidato.",
+    "opciones": [
+      "Una descripción de los puestos ocupados anteriormente.",
+      "Habilidades técnicas y blandas del candidato.",
+      "Referencias personales de trabajos previos."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es el programa Erasmus+?",
+    "respuesta": "Una iniciativa para fomentar la movilidad académica y profesional en Europa.",
+    "opciones": [
+      "Una iniciativa para fomentar la movilidad académica y profesional en Europa.",
+      "Un programa de formación online para desempleados.",
+      "Una herramienta para evaluar intereses laborales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué cualidad laboral se asocia con la capacidad de enfrentar adversidades?",
+    "respuesta": "Resiliencia.",
+    "opciones": [ "Adaptabilidad.", "Resiliencia.", "Proactividad." ]
+  },
+  {
+    "pregunta": "¿Qué se debe evitar al responder 'preguntas' sobre debilidades en una entrevista de trabajo?",
+    "respuesta": "Proporcionar debilidades irrelevantes o excusas.",
+    "opciones": [
+      "Reconocer áreas de mejora de forma honesta.",
+      "Responder con ejemplos de mejora continua.",
+      "Proporcionar debilidades irrelevantes o excusas."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es la resiliencia en el entorno profesional?",
+    "respuesta": "Adaptarse y superar situaciones adversas en el trabajo.",
+    "opciones": [
+      "La capacidad de ignorar los problemas.",
+      "Adaptarse y superar situaciones adversas en el trabajo.",
+      "Rechazar los cambios en el ambiente laboral."
+    ]
+  },
+  {
+    "pregunta": "¿Qué es el aprendizaje permanente?",
+    "respuesta": "La posibilidad de aprender en cualquier momento y lugar gracias a la tecnología.",
+    "opciones": [
+      "La posibilidad de aprender en cualquier momento y lugar gracias a la tecnología.",
+      "Un método exclusivo para entornos académicos formales.",
+      "Una estrategia que evita el uso de herramientas digitales."
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es una ventaja del aprendizaje permanente?",
+    "respuesta": "Mantenerse competitivo y adaptarse a los cambios laborales.",
+    "opciones": [
+      "Reducir la carga de trabajo.",
+      "Mantenerse competitivo y adaptarse a los cambios laborales.",
+      "Evitar el uso de nuevas tecnologías."
+    ]
+  },
+  {
+    "pregunta": "¿Qué recurso es clave en un entorno personal de aprendizaje?",
+    "respuesta": "Herramientas para organizar información.",
+    "opciones": [
+      "Herramientas para organizar información.",
+      "Solo fuentes impresas.",
+      "Exclusivamente redes sociales."
+    ]
+  },
+  {
+    "pregunta": "¿Qué herramienta es útil para gestionar el tiempo de aprendizaje?",
+    "respuesta": "Aplicaciones como Google Calendar.",
+    "opciones": [
+      "Redes sociales.",
+      "Aplicaciones como Google Calendar.",
+      "Blogs personales."
+    ]
+  }
+]
